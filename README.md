@@ -1,2 +1,2 @@
 # Spotify
-Minha réplica do Spotify em React
+Minha réplica do Spotify em React.
