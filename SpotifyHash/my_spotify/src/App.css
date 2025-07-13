@@ -1,0 +1,40 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Boldonse&family=Cal+Sans&family=Jersey+15&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Playwrite+AU+SA:wght@100..400&family=Playwrite+VN:wght@100..400&family=Special+Gothic+Condensed+One&family=Tagesschrift&family=Yellowtail&display=swap');
+:root{
+    --cor1: #d2f9e0;
+    --cor2: #bcf5d0;
+    --cor3: #79eca1;
+    --cor4: #4ce682;
+    --cor5: #20df63;
+    --cor6: #1dc959;
+    --cor7: #169c45;
+    --cor8: #107031;
+    --cor9: #0a431e;
+    --cor10: #062d14;
+    --cor11: #03160a;
+    --cor12: #020b05;
+    --cor13: #020b0540;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: var(--cor12);
+    color: var(--cor1);
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
+}
+/*HEADER*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+}
+.header > img{
+    height: 80px;
+    width: 70px;
+    max-width: 100%;
+}
