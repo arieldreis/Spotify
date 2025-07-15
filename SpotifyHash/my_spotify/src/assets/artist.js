@@ -1,4 +1,4 @@
-import theWeekend from './assets/Singers/theWeekend.jpg';
+import theWeekend from './Singers/theWeekend.jpg';
 import TravisScoot from './Singers/TravisScoot.webp';
 import TheBoxMadely from './Singers/TheBoxMadley.jpeg';
 import TaylorSwift from './Singers/taylorSwift.webp';
@@ -21,7 +21,7 @@ import LionelRichie from './Singers/Lionelrichie.webp';
 import LanaDelRey from './Singers/LanaDelRey.jpeg';
 import KatyPerrry from './Singers/KatyPerry.avif';
 import JustinBieber from './Singers/JustinBieber.jpeg';
-import JorgeMateus from './Singers/Jorge%26Matues.jpg';
+import JorgeMateus from './Singers/Jorge&Matues.jpg';
 import JBavin from './Singers/JBavin.jpeg';
 import Iza from './Singers/Iza.jpeg';
 import ImagineDragons from './Singers/ImagineDragons.jpeg';
@@ -50,16 +50,16 @@ import DuaLipa from './Singers/DuaSpotify.jpeg';
 import EdSherren from './Singers/Ed_Sheeran.jpg';
 import EltonJohn from './Singers/EltonJohn.jpg';
 import Emineen from './Singers/Eminne.webp';
-import HenriqueJuliano from './Singers/Henrique%26Juliano.jpeg';
+import HenriqueJuliano from './Singers/Henrique&Juliano.jpeg';
 import LuanSantana from './Singers/LuanSantana.jpg';
-import MatheusKauan from './Singers/Matheus%26Kauan.jpg';
+import MatheusKauan from './Singers/Matheus&Kauan.jpg';
 import McTuto from './Singers/McTuto.avif';
 import Marron5 from './Singers/Marron5.jpeg';
 import Rihanna from './Singers/Rihanna.jpeg';
 import LuisFonsi from './Singers/luizFonsi.jpg';
 import Blackpink from './Singers/BlackPink.jpeg';
-
-const artist = [
+// Importando o Banner das Músicas
+export const artist = [
     { id: 1, nome: "The Weeknd", img: theWeekend },
     { id: 2, nome: "Travis Scott", img: TravisScoot },
     { id: 3, nome: "The Box Medley", img: TheBoxMadely },

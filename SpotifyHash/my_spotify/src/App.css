@@ -14,6 +14,8 @@
     --cor11: #03160a;
     --cor12: #020b05;
     --cor13: #020b0540;
+    --transition-duration: 200ms;
+    --transition-function: ease;
 }
 * {
   padding: 0;
@@ -87,37 +89,65 @@ body{
   flex-direction: column;
   align-items: center;
   gap: 5px;
-  padding: 20px 15px;
+  padding: 16px;
 }
 
-.artistas > img {
-  border-radius: 50%;
-  width: 180px;
+.artistas img {
+  width: 100%;
   height: 150px;
-  max-width: 100%;
-  object-fit: fill;
-  display: block;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .artistas:hover {
   background-color: var(--cor9);
   transform: scale(1.05);
   border-radius: 10px;
-  padding: 20px 15px;
+  padding: 16px;
 }
 /*Reponsividade para o componente Artistas*/
 .container-artistas{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 20px;
+    padding: 20px;
 }
-@media (max-width: 768px){
-    .container-artistas{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        align-items: center;
-    }
-    
+@media (max-width: 768px) {
+  .artistas {
+    width: 140px;
+  }
+
+  .artistas img {
+    height: 130px;
+  }
+}
+
+@media (max-width: 480px) {
+  .artistas {
+    width: 120px;
+    padding: 16px;
+  }
+
+  .artistas img {
+    height: 110px;
+  }
+}
+/*Icone de Play dos Artistas*/
+.icon_play{
+    font-size: 50px;
+    position: absolute;
+    text-align: right;
+    display: none;
+    color: var(--cor6);
+    right: 7.5px;
+    bottom: 85px;
+    /* transform: translateY(100%);
+    transition-timing-function: var(--transition-function);
+    transition-duration: var(--transition-duration);
+    transition-property: opacity, transform; */
+}
+.artistas:hover > .icon_play{
+    display: block;
 }

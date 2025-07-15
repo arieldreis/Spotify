@@ -1,49 +1,20 @@
 import React from 'react';
 import theWeekend from './assets/Singers/theWeekend.jpg';
-import Artist from './assets/artist.js';
+import { artist } from './assets/artist.js';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCirclePlay } from '@fortawesome/free-solid-svg-icons';
 const Artist = () => {
   return (
     <div className="container-artistas">
-      <div className='artistas'>
-        <img src={theWeekend} alt="Imagem do cantor the Weekend" />
-        <p>The Weeknd</p>
-        <p>Artista</p>
-      </div>
-      <div className='artistas'>
-        <img src={theWeekend} alt="Imagem do cantor the Weekend" />
-        <p>The Weeknd</p>
-        <p>Artista</p>
-      </div>
-      <div className='artistas'>
-        <img src={theWeekend} alt="Imagem do cantor the Weekend" />
-        <p>The Weeknd</p>
-        <p>Artista</p>
-      </div>
-      <div className='artistas'>
-        <img src={theWeekend} alt="Imagem do cantor the Weekend" />
-        <p>The Weeknd</p>
-        <p>Artista</p>
-      </div>
-      <div className='artistas'>
-        <img src={theWeekend} alt="Imagem do cantor the Weekend" />
-        <p>The Weeknd</p>
-        <p>Artista</p>
-      </div>
-      <div className='artistas'>
-        <img src={theWeekend} alt="Imagem do cantor the Weekend" />
-        <p>The Weeknd</p>
-        <p>Artista</p>
-      </div>
-      <div className='artistas'>
-        <img src={theWeekend} alt="Imagem do cantor the Weekend" />
-        <p>The Weeknd</p>
-        <p>Artista</p>
-      </div>
-      <div className='artistas'>
-        <img src={theWeekend} alt="Imagem do cantor the Weekend" />
-        <p>The Weeknd</p>
-        <p>Artista</p>
-      </div>
+      {
+        artist.map(file => (
+            <div className='artistas' key={file.id}>
+                <img src={file.img} alt={`Imagem do cantor(a) ${file.nome}`} />
+                <p>{file.nome}</p>
+                <p>Artista</p>
+                <FontAwesomeIcon icon={faCirclePlay} className='icon_play'/>
+            </div>
+        ))}
     </div>
   )
 }
