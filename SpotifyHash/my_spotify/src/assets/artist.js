@@ -1,0 +1,85 @@
+import theWeekend from './assets/Singers/theWeekend.jpg';
+import TravisScoot from './Singers/TravisScoot.webp';
+import TheBoxMadely from './Singers/TheBoxMadley.jpeg';
+import TaylorSwift from './Singers/taylorSwift.webp';
+import SZA from './Singers/SZA.jpeg';
+import ShawMendes from './Singers/ShawMnedes.jpeg';
+import Jorge from './Singers/seujorgefabionunes.webp';
+import SeanPaul from './Singers/SeanPaul.jpeg';
+import RomeoSantos from './Singers/RomeoSantos.jpeg';
+import Queen from './Singers/Queen.jpg';
+import PostMalone from './Singers/Post_Malone.webp';
+import Pitbull from './Singers/Pitbull.jpeg';
+import OneRepublic from './Singers/OneRepublic.jpeg';
+import OneDirection from './Singers/OneDirection.jpg';
+import JoseMilionario from './Singers/MilionarioJoseRico.jpeg';
+import MichaelJackson from './Singers/MichaelJackson.jpeg';
+import menudo from './Singers/menudo.jpeg';
+import mcCabelinho from './Singers/mc-cabelinho.webp';
+import Matue from './Singers/matue4.webp';
+import LionelRichie from './Singers/Lionelrichie.webp';
+import LanaDelRey from './Singers/LanaDelRey.jpeg';
+import KatyPerrry from './Singers/KatyPerry.avif';
+import JustinBieber from './Singers/JustinBieber.jpeg';
+import JorgeMateus from './Singers/Jorge%26Matues.jpg';
+import JBavin from './Singers/JBavin.jpeg';
+import Iza from './Singers/Iza.jpeg';
+import ImagineDragons from './Singers/ImagineDragons.jpeg';
+import HarryStyles from './Singers/HarryStyles.avif';
+import Nathanzinho from './Singers/Nathanzinho.jpeg';
+import GustavoLima from './Singers/';
+const artist = [
+
+    {nome: "The Weekend", img: theWeekend},
+    {nome: "Travis Scott", img: TravisScoot.webp},
+    {nome: "The Box Medley", img: TheBoxMadely},
+    {nome: "Taylor Swift", img: TaylorSwift},
+    {nome: "SZA", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""},
+    {nome: "", img: ""}
+];
