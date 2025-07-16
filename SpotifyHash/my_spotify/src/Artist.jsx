@@ -8,7 +8,7 @@ const Artist = () => {
     <div className="container-artistas">
       {
         artist.slice(0, 30).map(file => (
-            <Link to='/song' key={file.id}>
+            <Link to={`/song/${file.id}`} key={file.id}>
               <div className='artistas' key={file.id}>
                   <img src={file.img} alt={`Imagem do cantor(a) ${file.nome}`} />
                   <p>{file.nome}</p>
