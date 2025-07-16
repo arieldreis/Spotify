@@ -4,10 +4,10 @@ import {Link} from 'react-router-dom';
 const header = () => {
   return (
     <header className='header'>
-      <Link to="/home">
+      <Link to="/">
         <h1>SPOTIFY</h1>
       </Link>
-      <Link to="/home">
+      <Link to="/">
         <img src={spotifyLogo} alt="Logo Spotify" />
       </Link>
     </header>

@@ -1,13 +1,19 @@
 import './App.css';
 import React from 'react';
-import Header from './header';
-import Principal from './Principal';
-
+import Header from './header.jsx';
+import Home from './Home.jsx';
+import Artists from './Artists.jsx';
+import {BrowserRouter, Routes, Route } from "react-router-dom";
 const App = () => {
   return (
     <>
+    <BrowserRouter>
       <Header />
-      <Principal />
+          <Routes>
+              <Route path='/' element={<Home />}/>
+              <Route path='/artists' element={<Artists />}/>
+          </Routes>
+    </BrowserRouter>
     </>
   )
 }
