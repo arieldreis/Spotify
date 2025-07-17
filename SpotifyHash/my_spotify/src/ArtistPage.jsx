@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
 import TravisScoot from './assets/Banner/TravisScoot.jpeg'
+import songs from './assets/songs.js';
 const ArtistPage = () => {
   return (
     <>
