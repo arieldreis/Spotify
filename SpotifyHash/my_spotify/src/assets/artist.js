@@ -62,6 +62,9 @@ import menosemais from './Singers/menosemais.jpeg'
 import leoMagalhaes from './Singers/leoMagalhaes.jpeg';
 import LDS from './Singers/LDS.jpg'
 // Importando o Banner das Músicas
+import bannerTheWeekend from './Banner/theWeekend.jpeg'
+
+
 export const artist = [
     { id: 1, nome: "The Weeknd", img: theWeekend },
     { id: 2, nome: "Travis Scott", img: TravisScoot },

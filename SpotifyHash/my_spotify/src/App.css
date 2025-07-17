@@ -179,3 +179,73 @@ a{
 }
 
 
+/*Song from Artist*/
+.songFromArtist{
+  background-image: linear-gradient(to bottom, var(--cor10), var(--cor12));
+  padding: 30px;
+  margin-top: -10px;
+}
+.songFromArtist > h2{
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+.bannerArtista{
+  position: relative;
+  width: 100%;
+  max-height: 60vh;
+  overflow: hidden;
+}
+.bannerArtista > img{
+  width: 100%;
+  height: auto;
+  max-height: 70vh;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+  object-position: top center;
+}
+.bannerArtista > h1{
+  font-size: 96px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-weight: bolder;
+}
+@media(max-width: 768px){
+  .bannerArtista > h1{
+    font-size: 70px;
+  }
+}
+@media(max-width: 480px){
+  .bannerArtista > h1{
+    font-size: 50px;
+  }
+}
+
+
+.songAlign{
+  padding: 10px;
+  border-radius: 10px;
+}
+.songAlign img{
+  cursor: pointer;
+  border-radius: 10px;
+  width: 60px;
+  height: auto;
+}
+.songAlign:hover{
+  background-color: var(--cor9);
+}
+.distancia {
+  display: flex;
+  justify-content: space-between; /* isso espalha os dois blocos */
+  align-items: center;
+}
+.esquerda {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.tempo {
+  color: var(--cor1);
+  font-size: 17px;
+}
