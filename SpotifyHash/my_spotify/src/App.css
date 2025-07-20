@@ -14,6 +14,9 @@
     --cor11: #03160a;
     --cor12: #020b05;
     --cor13: #020b0540;
+    --cor14: #ffffff;
+    --cor15: #808080;
+    --cor16: #000000;
     --transition-duration: 500ms;
     --transition-function: ease;
 }
@@ -111,10 +114,10 @@ body{
 }
 
 .artistas img {
-  width: 100%;
+  width: 115%;
   height: 150px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 60%;
 }
 
 .artistas:hover {
@@ -204,6 +207,8 @@ a{
   object-position: top center;
 }
 .bannerArtista > h1{
+  color: var(--cor14);
+  text-shadow: 1px 2px rgba(0, 0, 0, 0.903);
   font-size: 96px;
   position: absolute;
   bottom: 20px;
@@ -248,4 +253,86 @@ a{
 .tempo {
   color: var(--cor1);
   font-size: 17px;
+}
+/*Player de Música*/
+.ImgCenter{
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ImgCenter img{
+  border-radius: 10px;
+  width: 350px;
+  max-width: 100%;
+  height: auto;
+}
+.Player {
+  background-color: var(--cor16);
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Isso permite quebrar linha se precisar */
+  gap: 20px;
+}
+
+.Player img {
+  width: 70px;
+  height: auto;
+  border-radius: 5px;
+}
+.informacoes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 180px;
+  word-break: break-word;
+}
+.PlayerBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.PlayerBtn > .btn {
+  font-size: 40px;
+  color: var(--cor14);
+  margin: 10px;
+  cursor: pointer;
+}
+.progress {
+  background-color: var(--cor15);
+  padding: 10px;
+  border-radius: 20px;
+  width: 200px;
+  height: 6px;
+  max-width: 90vw; /* Limita largura no celular */
+  overflow: hidden;
+}
+.PlayerMusicBar {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.ContainerColuna {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+/* Media query para celulares */
+@media(max-width: 768px) {
+  .Player {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .informacoes {
+    align-items: center;
+    max-width: 90vw;
+  }
 }
