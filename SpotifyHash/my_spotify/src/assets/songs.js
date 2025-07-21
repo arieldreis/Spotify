@@ -53,8 +53,84 @@ import ShawMendes4 from './songs/ShawMendes/senorita.jpeg';
 import ShawMendes5 from './songs/ShawMendes/Stitches.jpeg';
 import ShawMendes6 from './songs/ShawMendes/Wonder.jpg';
 
+// Seu Jorge
+import SeuJorge1 from './songs/seuJorge/burgusinha.avif';
+import SeuJorge2 from './songs/seuJorge/amigaDaMinhaMulher.jpeg';
+import SeuJorge3 from './songs/seuJorge/carolina.jpeg';
+import SeuJorge4 from './songs/seuJorge/tiveRazao.jpeg';
+import SeuJorge5 from './songs/seuJorge/fileMars.jpeg';
+
+// Sean Paul 
+import SeanPaul1 from './songs/SeanPaul/temperature.jpg';
+import SeanPaul2 from './songs/SeanPaul/GetBusy.jpeg';
+import SeanPaul3 from './songs/SeanPaul/noLie.jpeg';
+import SeanPaul4 from './songs/SeanPaul/sheDoesMind.jpeg';
+import SeanPaul5 from './songs/SeanPaul/StillLoveYou.jpeg';
+import SeanPaul6 from './songs/SeanPaul/likeGlue.jpeg';
+import SeanPaul7 from './songs/SeanPaul/rockybye.jpeg';
+
+// Romeo Santos
+import RomeoSantos1 from './songs/RomeoSantos/propuesta.jpeg';
+import RomeoSantos2 from './songs/RomeoSantos/Imitadora.jpg';
+import RomeoSantos3 from './songs/RomeoSantos/Bella_y_Sensual.jpg';
+import RomeoSantos4 from './songs/RomeoSantos/Cancioncitas_Amor.jpg';
+import RomeoSantos5 from './songs/RomeoSantos/Mi_Santa.jpeg';
+
+// Post Malone
+import PostMalone1 from './songs/PostMalone/circles.jpg';
+import PostMalone2 from './songs/PostMalone/sunflower.jpg';
+import PostMalone3 from './songs/PostMalone/rockstar.jpg';
+import PostMalone4 from './songs/PostMalone/congrats.jpeg';
+import PostMalone5 from './songs/PostMalone/iHadSomeHelp.jpeg';
+import PostMalone6 from './songs/PostMalone/I_Like_You.jpg';
+import PostMalone7 from './songs/PostMalone/White_Iverson.jpg';
+import PostMalone8 from './songs/PostMalone/Mourning.jpg';
+
+// Pitbull
+import Pitbull1 from './songs/Pitbull/timber.jpeg';
+import Pitbull2 from './songs/Pitbull/Pitbull2.jpeg';
+import Pitbull3 from './songs/Pitbull/Hotel_Room_Service.png';
+import Pitbull4 from './songs/Pitbull/Fireball.png';
+import Pitbull5 from './songs/Pitbull/Dont-Stop-the-Party.jpg';
+import Pitbull6 from './songs/Pitbull/PIBULL6.jpeg';
+import Pitbull7 from './songs/Pitbull/Rain_Over_Me.jpg';
+import Pitbull8 from './songs/Pitbull/pitbull3.jpg';
+
+// One Republic
+import OneRepublic1 from './songs/OneRepublic/CountingStars.jpg';
+import OneRepublic2 from './songs/OneRepublic/apologies.jpeg';
+import OneRepublic3 from './songs/OneRepublic/secrets.jpeg';
+import OneRepublic4 from './songs/OneRepublic/lovesRunOut.jpeg';
+import OneRepublic5 from './songs/OneRepublic/loseMyself.jpeg';
+import OneRepublic6 from './songs/OneRepublic/run.jpeg';
+import OneRepublic7 from './songs/OneRepublic/sunshine.jpeg';
+
+// One Direction
+import OneDirection1 from './songs/OneDirection/WhatMakeBeauty.jpeg';
+import OneDirection2 from './songs/OneDirection/storyOfLive.jpg';
+import OneDirection3 from './songs/OneDirection/dragDown.jpg';
+import OneDirection4 from './songs/OneDirection/nightChanges.jpeg';
+import OneDirection5 from './songs/OneDirection/stealGirl.jpeg';
+import OneDirection6 from './songs/OneDirection/littleThings.jpeg';
+import OneDirection7 from './songs/OneDirection/bestSongEver.jpeg';
+import OneDirection8 from './songs/OneDirection/oneThing.jpeg';
+import OneDirection9 from './songs/OneDirection/OneDirection1.jpeg';
+import OneDirection10 from './songs/OneDirection/perfect.jpeg';
+
+// Michael Jackson
+import Jackson1 from './songs/MichaelJackson/MichaelJackson.jpeg';
+import Jackson2 from './songs/MichaelJackson/thriller.jpg';
+import Jackson3 from './songs/MichaelJackson/michaelJackson1.jpeg';
+import Jackson4 from './songs/MichaelJackson/bad.jpeg';
+import Jackson5 from './songs/MichaelJackson/blackWhite.jpeg';
+import Jackson6 from './songs/MichaelJackson/Jackson3.jpeg';
+
+// Songs 
+
+
+
 export const songsFromArtist = {
-  TheWeekend: [
+  1: [
     { id: 1, title: "Blinding Lights", artist: "The Weeknd", duration: "3:20", img: theWekend1},
     { id: 2, title: "Save Your Tears", artist: "The Weeknd", duration: "3:35", img: theWekend5},
     { id: 3, title: "Starboy", artist: "The Weeknd", duration: "3:50", img: theWekend4},
@@ -66,7 +142,7 @@ export const songsFromArtist = {
     { id: 9, title: "Out of Time", artist: "The Weeknd", duration: "3:34", img: theWekend6},
     { id: 10, title: "Take My Breath", artist: "The Weeknd", duration: "3:40", img: theWekend3}
   ],
-  travisScoot: [
+  2: [
     { id: 11, title: "SICKO MODE", artist: "Travis Scott", duration: "5:12", img: SickoMode },
     { id: 12, title: "goosebumps", artist: "Travis Scott", duration: "4:03", img: goosebumps },  
     { id: 13, title: "HIGHEST IN THE ROOM", artist: "Travis Scott", duration: "2:55", img: HihestRoom },
@@ -78,7 +154,7 @@ export const songsFromArtist = {
     { id: 19, title: "Upper Echelon", artist: "Travis Scott", duration: "4:03", img: UpperEchelon },
     { id: 20, title: "90210", artist: "Travis Scott", duration: "5:40", img: Travis1 }
   ],
-  TaylorSwift: [
+  3: [
     { id: 21, title: "Cruel Summer", artist: "Taylor Swift", duration: "2:58", img: CruelSummer },
     { id: 22, title: "Anti-Hero", artist: "Taylor Swift", duration: "3:21", img: hero },
     { id: 23, title: "Shake It Off", artist: "Taylor Swift", duration: "3:39", img:ShakeItOff },
@@ -90,7 +166,7 @@ export const songsFromArtist = {
     { id: 29, title: "The Archer", artist: "Taylor Swift", duration: "3:31", img: theArcher },
     { id: 30, title: "Willow", artist: "Taylor Swift", duration: "3:34", img: willow }
   ],
-  Sza: [
+  4: [
     { id: 31, title: "Kill Bill", artist: "SZA", duration: "2:33", img: Sza1 },
     { id: 32, title: "Good Days", artist: "SZA", duration: "4:39", img: Sza1 },
     { id: 33, title: "Snooze", artist: "SZA", duration: "3:22", img: Sza1 },
@@ -102,7 +178,7 @@ export const songsFromArtist = {
     { id: 39, title: "Low", artist: "SZA", duration: "3:00", img:Sza1 },
     { id: 40, title: "Seek & Destroy", artist: "SZA", duration: "3:25", img: Sza1 }
   ],
-  ShawMendes:[
+  5:[
     { id: 41, title: "Señorita", artist: "Shawn Mendes", duration: "3:11", img: ShawMendes4 },
     { id: 42, title: "Stitches", artist: "Shawn Mendes", duration: "3:27", img: ShawMendes5 },
     { id: 43, title: "There's Nothing Holdin' Me Back", artist: "Shawn Mendes", duration: "3:20", img: ShawMendes1 },
@@ -114,103 +190,103 @@ export const songsFromArtist = {
     { id: 49, title: "Lost in Japan", artist: "Shawn Mendes", duration: "3:21", img: ShawMendes3 },
     { id: 50, title: "Nervous", artist: "Shawn Mendes", duration: "2:44", img: ShawMendes3 }
   ],
-  SeuJorge: [
-    { id: 51, title: "Burguesinha", artist: "Seu Jorge", duration: "3:46" },
-    { id: 52, title: "Amiga da Minha Mulher", artist: "Seu Jorge", duration: "3:58" },
-    { id: 53, title: "Carolina", artist: "Seu Jorge", duration: "3:42" },
-    { id: 54, title: "Tive Razão", artist: "Seu Jorge", duration: "3:50" },
-    { id: 55, title: "Quem Não Quer Sou Eu", artist: "Seu Jorge", duration: "4:17" },
-    { id: 56, title: "Mina do Condomínio", artist: "Seu Jorge", duration: "3:41" },
-    { id: 57, title: "São Gonça", artist: "Seu Jorge", duration: "3:38" },
-    { id: 58, title: "Zé do Caroço", artist: "Seu Jorge", duration: "4:10" },
-    { id: 59, title: "Dois Barcos", artist: "Seu Jorge", duration: "4:25" },
-    { id: 60, title: "Life on Mars?", artist: "Seu Jorge", duration: "3:41" }
+  6: [
+    { id: 51, title: "Burguesinha", artist: "Seu Jorge", duration: "3:46", img: SeuJorge1 },
+    { id: 52, title: "Amiga da Minha Mulher", artist: "Seu Jorge", duration: "3:58", img: SeuJorge2 },
+    { id: 53, title: "Carolina", artist: "Seu Jorge", duration: "3:42", img: SeuJorge3 },
+    { id: 54, title: "Tive Razão", artist: "Seu Jorge", duration: "3:50", img: SeuJorge4 },
+    { id: 55, title: "Quem Não Quer Sou Eu", artist: "Seu Jorge", duration: "4:17", img: SeuJorge2 },
+    { id: 56, title: "Mina do Condomínio", artist: "Seu Jorge", duration: "3:41", img: SeuJorge1 },
+    { id: 57, title: "São Gonça", artist: "Seu Jorge", duration: "3:38", img: SeuJorge4 },
+    { id: 58, title: "Zé do Caroço", artist: "Seu Jorge", duration: "4:10", img: SeuJorge1 },
+    { id: 59, title: "Dois Barcos", artist: "Seu Jorge", duration: "4:25", img: SeuJorge1 },
+    { id: 60, title: "Life on Mars?", artist: "Seu Jorge", duration: "3:41", img: SeuJorge5 }
   ],
-  SeanPaul: [
-    { id: 61, title: "Temperature", artist: "Sean Paul", duration: "3:38" },
-    { id: 62, title: "Get Busy", artist: "Sean Paul", duration: "3:31" },
-    { id: 63, title: "No Lie", artist: "Sean Paul", duration: "3:43" },
-    { id: 64, title: "She Doesn't Mind", artist: "Sean Paul", duration: "3:47" },
-    { id: 65, title: "I'm Still in Love with You", artist: "Sean Paul", duration: "4:36" },
-    { id: 66, title: "Like Glue", artist: "Sean Paul", duration: "3:53" },
-    { id: 67, title: "Gimme the Light", artist: "Sean Paul", duration: "3:46" },
-    { id: 68, title: "Rockabye", artist: "Sean Paul", duration: "4:11" },
-    { id: 69, title: "Give It Up to Me", artist: "Sean Paul", duration: "4:19" },
-    { id: 70, title: "Baby Boy", artist: "Sean Paul", duration: "4:07" }
+  7: [
+    { id: 61, title: "Temperature", artist: "Sean Paul", duration: "3:38", img: SeanPaul1 },
+    { id: 62, title: "Get Busy", artist: "Sean Paul", duration: "3:31", img: SeanPaul2},
+    { id: 63, title: "No Lie", artist: "Sean Paul", duration: "3:43", img: SeanPaul3 },
+    { id: 64, title: "She Doesn't Mind", artist: "Sean Paul", duration: "3:47", img: SeanPaul4 },
+    { id: 65, title: "I'm Still in Love with You", artist: "Sean Paul", duration: "4:36", img: SeanPaul5 },
+    { id: 66, title: "Like Glue", artist: "Sean Paul", duration: "3:53", img: SeanPaul6 },
+    { id: 67, title: "Gimme the Light", artist: "Sean Paul", duration: "3:46", img: SeanPaul1},
+    { id: 68, title: "Rockabye", artist: "Sean Paul", duration: "4:11", img: SeanPaul7},
+    { id: 69, title: "Give It Up to Me", artist: "Sean Paul", duration: "4:19", img: SeanPaul2},
+    { id: 70, title: "Baby Boy", artist: "Sean Paul", duration: "4:07", img: SeanPaul1}
   ],
-  RomeoSantos: [
-    { id: 71, title: "Propuesta Indecente", artist: "Romeo Santos", duration: "3:50" },
-    { id: 72, title: "Eres Mía", artist: "Romeo Santos", duration: "3:36" },
-    { id: 73, title: "Hilito", artist: "Romeo Santos", duration: "4:10" },
-    { id: 74, title: "Odio", artist: "Romeo Santos", duration: "3:44" },
-    { id: 75, title: "Imitadora", artist: "Romeo Santos", duration: "3:55" },
-    { id: 76, title: "Bella y Sensual", artist: "Romeo Santos", duration: "3:52" },
-    { id: 77, title: "Necio", artist: "Romeo Santos", duration: "4:22" },
-    { id: 78, title: "Sobredosis", artista: "Romeo Santos", duration: "4:10" },
-    { id: 79, title: "Cancioncitas de Amor", artist: "Romeo Santos", duration: "3:45" },
-    { id: 80, title: "Mi Santa", artist: "Romeo Santos", duration: "4:02" }
+  8: [
+    { id: 71, title: "Propuesta Indecente", artist: "Romeo Santos", duration: "3:50", img: RomeoSantos1 },
+    { id: 72, title: "Eres Mía", artist: "Romeo Santos", duration: "3:36", img: RomeoSantos1 },
+    { id: 73, title: "Hilito", artist: "Romeo Santos", duration: "4:10", img: RomeoSantos1 },
+    { id: 74, title: "Odio", artist: "Romeo Santos", duration: "3:44", img: RomeoSantos1},
+    { id: 75, title: "Imitadora", artist: "Romeo Santos", duration: "3:55", img: RomeoSantos2},
+    { id: 76, title: "Bella y Sensual", artist: "Romeo Santos", duration: "3:52", img: RomeoSantos3},
+    { id: 77, title: "Necio", artist: "Romeo Santos", duration: "4:22", img: RomeoSantos1},
+    { id: 78, title: "Sobredosis", artista: "Romeo Santos", duration: "4:10", img: RomeoSantos1},
+    { id: 79, title: "Cancioncitas de Amor", artist: "Romeo Santos", duration: "3:45", img: RomeoSantos4},
+    { id: 80, title: "Mi Santa", artist: "Romeo Santos", duration: "4:02", img: RomeoSantos5}
   ],
-  PostMalone: [
-    { id: 81, title: "Circles", artist: "Post Malone", duration: "3:35" },
-    { id: 82, title: "Sunflower", artist: "Post Malone", duration: "2:38" },
-    { id: 83, title: "rockstar", artist: "Post Malone", duration: "3:38" },
-    { id: 84, title: "Congratulations", artist: "Post Malone", duration: "3:40" },
-    { id: 85, title: "Wow.", artist: "Post Malone", duration: "2:29" },
-    { id: 86, title: "Goodbyes", artist: "Post Malone", duration: "2:54" },
-    { id: 87, title: "I Like You", artist: "Post Malone", duration: "3:11" },
-    { id: 88, title: "Better Now", artist: "Post Malone", duration: "3:51" },
-    { id: 89, title: "White Iverson", artista: "Post Malone", duration: "4:17" },
-    { id: 90, title: "Mourning", artist: "Post Malone", duration: "3:21" }
+  9: [
+    { id: 81, title: "Circles", artist: "Post Malone", duration: "3:35", img: PostMalone1},
+    { id: 82, title: "Sunflower", artist: "Post Malone", duration: "2:38", img: PostMalone2},
+    { id: 83, title: "rockstar", artist: "Post Malone", duration: "3:38", img: PostMalone3},
+    { id: 84, title: "Congratulations", artist: "Post Malone", duration: "3:40", img: PostMalone4},
+    { id: 85, title: "I Had Some Help", artist: "Post Malone", duration: "2:58", img: PostMalone5},
+    { id: 86, title: "Goodbyes", artist: "Post Malone", duration: "2:54", img: PostMalone1},
+    { id: 87, title: "I Like You", artist: "Post Malone", duration: "3:11", img: PostMalone6 },
+    { id: 88, title: "Better Now", artist: "Post Malone", duration: "3:51", img: PostMalone3},
+    { id: 89, title: "White Iverson", artista: "Post Malone", duration: "4:17", img: PostMalone7},
+    { id: 90, title: "Mourning", artist: "Post Malone", duration: "3:21", img: PostMalone8}
   ],
-  Pitbull: [
-    { id: 91, title: "Timber", artist: "Pitbull", duration: "3:24" },
-    { id: 92, title: "Give Me Everything", artist: "Pitbull", duration: "4:12" },
-    { id: 93, title: "Hotel Room Service", artist: "Pitbull", duration: "3:58" },
-    { id: 94, title: "Fireball", artist: "Pitbull", duration: "3:24" },
-    { id: 95, title: "Don't Stop the Party", artist: "Pitbull", duration: "3:26" },
-    { id: 96, title: "International Love", artist: "Pitbull", duration: "3:47" },
-    { id: 97, title: "Time of Our Lives", artist: "Pitbull", duration: "3:49" },
-    { id: 98, title: "Rain Over Me", artist: "Pitbull", duration: "3:51" },
-    { id: 99, title: "I Know You Want Me", artist: "Pitbull", duration: "3:57" },
-    { id: 100, title: "Hey Baby (Drop It to the Floor)", artist: "Pitbull", duracao: "3:24" }
+  10: [
+    { id: 91, title: "Timber", artist: "Pitbull", duration: "3:24", img: Pitbull1 },
+    { id: 92, title: "Give Me Everything", artist: "Pitbull", duration: "4:12", img: Pitbull2 },
+    { id: 93, title: "Hotel Room Service", artist: "Pitbull", duration: "3:58", img: Pitbull3 },
+    { id: 94, title: "Fireball", artist: "Pitbull", duration: "3:24", img: Pitbull4 },
+    { id: 95, title: "Don't Stop the Party", artist: "Pitbull", duration: "3:26", img: Pitbull5},
+    { id: 96, title: "International Love", artist: "Pitbull", duration: "3:47", img: Pitbull2 },
+    { id: 97, title: "Time of Our Lives", artist: "Pitbull", duration: "3:49", img: Pitbull6},
+    { id: 98, title: "Rain Over Me", artist: "Pitbull", duration: "3:51", img: Pitbull7 },
+    { id: 99, title: "I Know You Want Me", artist: "Pitbull", duration: "3:57", img: Pitbull8 },
+    { id: 100, title: "FUN", artist: "Pitbull", duracao: "3:24", img: Pitbull6}
   ],
-  OneRepublic: [
-    { id: 101, title: "Counting Stars", artist: "OneRepublic", duration: "4:17" },
-    { id: 102, title: "Apologize", artist: "OneRepublic", duration: "3:28" },
-    { id: 103, title: "Secrets", artist: "OneRepublic", duration: "3:44" },
-    { id: 104, title: "Love Runs Out", artist: "OneRepublic", duration: "3:44" },
-    { id: 105, title: "I Lived", artist: "OneRepublic", duration: "3:54" },
-    { id: 106, title: "If I Lose Myself", artist: "OneRepublic", duration: "4:01" },
-    { id: 107, title: "Stop and Stare", artist: "OneRepublic", duration: "4:04" },
-    { id: 108, title: "Rescue Me", artist: "OneRepublic", duration: "2:39" },
-    { id: 109, title: "Run", artist: "OneRepublic", duration: "2:49" },
-    { id: 110, title: "Sunshine", artist: "OneRepublic", duration: "2:43" }
+  11: [
+    { id: 101, title: "Counting Stars", artist: "OneRepublic", duration: "4:17", img: OneRepublic1 },
+    { id: 102, title: "Apologize", artist: "OneRepublic", duration: "3:28", img: OneRepublic2},
+    { id: 103, title: "Secrets", artist: "OneRepublic", duration: "3:44", img: OneRepublic3},
+    { id: 104, title: "Love Runs Out", artist: "OneRepublic", duration: "3:44", img: OneRepublic4},
+    { id: 105, title: "I Lived", artist: "OneRepublic", duration: "3:54", img: OneRepublic1},
+    { id: 106, title: "If I Lose Myself", artist: "OneRepublic", duration: "4:01", img: OneRepublic5},
+    { id: 107, title: "Stop and Stare", artist: "OneRepublic", duration: "4:04", img: OneRepublic2 },
+    { id: 108, title: "Rescue Me", artist: "OneRepublic", duration: "2:39", img: OneRepublic6 },
+    { id: 109, title: "Run", artist: "OneRepublic", duration: "2:49", img: OneRepublic6},
+    { id: 110, title: "Sunshine", artist: "OneRepublic", duration: "2:43", img: OneRepublic7}
   ],
-  OneDirection: [
-    { id: 111, title: "What Makes You Beautiful", artist: "One Direction", duration: "3:20" },
-    { id: 112, title: "Story of My Life", artist: "One Direction", duration: "4:05" },
-    { id: 113, title: "Drag Me Down", artist: "One Direction", duration: "3:12" },
-    { id: 114, title: "Night Changes", artist: "One Direction", duration: "3:46" },
-    { id: 115, title: "Steal My Girl", artist: "One Direction", duration: "3:48" },
-    { id: 116, title: "Little Things", artist: "One Direction", duration: "3:37" },
-    { id: 117, title: "Best Song Ever", artist: "One Direction", duration: "3:22" },
-    { id: 118, title: "One Thing", artist: "One Direction", duration: "3:17" },
-    { id: 119, title: "Live While We're Young", artist: "One Direction", duration: "3:20" },
-    { id: 120, title: "Perfect", artist: "One Direction", duration: "3:50" }
+  12: [
+    { id: 111, title: "What Makes You Beautiful", artist: "One Direction", duration: "3:20", img: OneDirection1 },
+    { id: 112, title: "Story of My Life", artist: "One Direction", duration: "4:05", img: OneDirection2 },
+    { id: 113, title: "Drag Me Down", artist: "One Direction", duration: "3:12", img: OneDirection3 },
+    { id: 114, title: "Night Changes", artist: "One Direction", duration: "3:46", img: OneDirection4 },
+    { id: 115, title: "Steal My Girl", artist: "One Direction", duration: "3:48", img: OneDirection5 },
+    { id: 116, title: "Little Things", artist: "One Direction", duration: "3:37", img: OneDirection6 },
+    { id: 117, title: "Best Song Ever", artist: "One Direction", duration: "3:22", img: OneDirection7 },
+    { id: 118, title: "One Thing", artist: "One Direction", duration: "3:17", img: OneDirection8 },
+    { id: 119, title: "Live While We're Young", artist: "One Direction", duration: "3:20", img: OneDirection9 },
+    { id: 120, title: "Perfect", artist: "One Direction", duration: "3:50", img: OneDirection10 }
   ],
-  MichaelJackson: [
-    { id: 121, title: "Billie Jean", artist: "Michael Jackson", duration: "4:54" },
-    { id: 122, title: "Thriller", artist: "Michael Jackson", duration: "5:57" },
-    { id: 123, title: "Beat It", artist: "Michael Jackson", duration: "4:18" },
-    { id: 124, title: "Smooth Criminal", artist: "Michael Jackson", duration: "4:17" },
-    { id: 125, title: "Bad", artist: "Michael Jackson", duration: "4:07" },
-    { id: 126, title: "Black or White", artist: "Michael Jackson", duration: "4:16" },
-    { id: 127, title: "Man in the Mirror", artist: "Michael Jackson", duration: "5:19" },
-    { id: 128, title: "The Way You Make Me Feel", artist: "Michael Jackson", duration: "4:58" },
-    { id: 129, title: "Remember the Time", artist: "Michael Jackson", duration: "4:00" },
-    { id: 130, title: "Don't Stop 'Til You Get Enough", artist: "Michael Jackson", duration: "6:05" },
+  13: [
+    { id: 121, title: "Billie Jean", artist: "Michael Jackson", duration: "4:54", img: Jackson1 },
+    { id: 122, title: "Thriller", artist: "Michael Jackson", duration: "5:57", img: Jackson2 } ,
+    { id: 123, title: "Beat It", artist: "Michael Jackson", duration: "4:18", img: Jackson1 },
+    { id: 124, title: "Smooth Criminal", artist: "Michael Jackson", duration: "4:17", img: Jackson3},
+    { id: 125, title: "Bad", artist: "Michael Jackson", duration: "4:07", img: Jackson4},
+    { id: 126, title: "Black or White", artist: "Michael Jackson", duration: "4:16", img: Jackson5 },
+    { id: 127, title: "Man in the Mirror", artist: "Michael Jackson", duration: "5:19", img: Jackson3 },
+    { id: 128, title: "The Way You Make Me Feel", artist: "Michael Jackson", duration: "4:58", img: Jackson3 },
+    { id: 129, title: "Remember the Time", artist: "Michael Jackson", duration: "4:00", img: Jackson1 },
+    { id: 130, title: "Don't Stop 'Til You Get Enough", artist: "Michael Jackson", duration: "6:05", img: Jackson6 },
   ],
-  Queen: [
+  14: [
     { id: 131, title: "Bohemian Rhapsody", artist: "Queen", duration: "5:55" },
     { id: 132, title: "Don't Stop Me Now", artist: "Queen", duration: "3:29" },
     { id: 133, title: "We Will Rock You", artist: "Queen", duration: "2:02" },
@@ -222,7 +298,7 @@ export const songsFromArtist = {
     { id: 139, title: "Killer Queen", artist: "Queen", duration: "3:00" },
     { id: 140, title: "Radio Ga Ga", artist: "Queen", duration: "5:48" },
   ],
-  Menudo: [
+  15: [
     { id: 151, title: "Não Se Reprima", artist: "Menudo", duration: "3:38" },
     { id: 152, title: "Quero Ser", artist: "Menudo", duration: "3:44" },
     { id: 153, title: "Diga Sim", artist: "Menudo", duration: "3:46" },
@@ -234,7 +310,7 @@ export const songsFromArtist = {
     { id: 159, title: "Chicle de Amor", artist: "Menudo", duration: "3:30" },
     { id: 160, title: "Ella-a-a", artist: "Menudo", duration: "3:45" },
   ],
-  mcCabelinho: [
+  16: [
     { id: 161, title: "Coração de Gelo", artist: "MC Cabelinho", duration: "3:02" },
     { id: 162, title: "Você Gosta Assim", artist: "MC Cabelinho", duration: "2:58" },
     { id: 163, title: "Barulho do Foguete", artist: "MC Cabelinho", duration: "2:32" },
@@ -246,7 +322,7 @@ export const songsFromArtist = {
     { id: 169, title: "Ela É do Tipo", artist: "MC Cabelinho", duration: "2:46" },
     { id: 170, title: "Pepeka Braba", artist: "MC Cabelinho", duration: "2:55" },
   ],
-  matue: [
+  17: [
     { id: 171, title: "Quer Voar", artist: "Matuê", duration: "3:13" },
     { id: 172, title: "Máquina do Tempo", artist: "Matuê", duration: "3:12" },
     { id: 173, title: "777-666", artist: "Matuê", duration: "2:36" },
@@ -258,7 +334,7 @@ export const songsFromArtist = {
     { id: 179, title: "Bank", artist: "Matuê", duration: "2:42" },
     { id: 180, title: "Vampiro", artist: "Matuê, Teto, WIU", duration: "2:56" },
   ],
-  LionelRichei: [
+  18: [
     { id: 181, title: "Hello", artist: "Lionel Richie", duration: "4:08" },
     { id: 182, title: "All Night Long", artist: "Lionel Richie", duration: "6:25" },
     { id: 183, title: "Say You, Say Me", artist: "Lionel Richie", duration: "4:00" },
@@ -270,7 +346,7 @@ export const songsFromArtist = {
     { id: 189, title: "Penny Lover", artist: "Lionel Richie", duration: "3:46" },
     { id: 190, title: "You Are", artist: "Lionel Richie", duration: "4:03" },
   ],
-  LanaDelRey: [
+  19: [
     { id: 191, title: "Summertime Sadness", artist: "Lana Del Rey", duration: "4:25" },
     { id: 192, title: "Young and Beautiful", artist: "Lana Del Rey", duration: "3:56" },
     { id: 193, title: "Born to Die", artist: "Lana Del Rey", duration: "4:46" },
@@ -282,7 +358,7 @@ export const songsFromArtist = {
     { id: 199, title: "Love", artist: "Lana Del Rey", duration: "4:33" },
     { id: 200, title: "Lust for Life", artist: "Lana Del Rey ft. The Weeknd", duration: "4:24" },
   ],
-  KatyPerry: [
+  20: [
     { id: 201, title: "Firework", artist: "Katy Perry", duration: "3:48" },
     { id: 202, title: "Dark Horse", artist: "Katy Perry ft. Juicy J", duration: "3:35" },
     { id: 203, title: "Roar", artist: "Katy Perry", duration: "3:43" },
@@ -294,7 +370,7 @@ export const songsFromArtist = {
     { id: 209, title: "Part of Me", artist: "Katy Perry", duration: "3:35" },
     { id: 210, title: "Wide Awake", artist: "Katy Perry", duration: "3:41" },
   ],
-  JustinBieber: [
+  21: [
     { id: 141, title: "Sorry", artist: "Justin Bieber", duration: "3:20" },
     { id: 142, title: "Love Yourself", artist: "Justin Bieber", duration: "3:54" },
     { id: 143, title: "Peaches", artist: "Justin Bieber", duration: "3:18" },
@@ -306,7 +382,7 @@ export const songsFromArtist = {
     { id: 149, title: "Never Say Never", artist: "Justin Bieber", duration: "3:39" },
     { id: 150, title: "One Time", artist: "Justin Bieber", duration: "3:31" },
   ],
-  JorgeMateus: [
+  22: [
     { id: 221, title: "Propaganda", artist: "Jorge & Mateus", duration: "3:30" },
     { id: 222, title: "Tijolão", artist: "Jorge & Mateus", duration: "3:13" },
     { id: 223, title: "Sosseguei", artist: "Jorge & Mateus", duration: "3:21" },
@@ -318,7 +394,7 @@ export const songsFromArtist = {
     { id: 229, title: "Voa Beija-Flor", artist: "Jorge & Mateus", duration: "3:38" },
     { id: 230, title: "Pode Chorar", artist: "Jorge & Mateus", duration: "3:29" },
   ],
-  JBavin: [
+  23: [
     { id: 231, title: "Mi Gente", artist: "J Balvin & Willy William", duration: "3:06" },
     { id: 232, title: "Ginza", artist: "J Balvin", duration: "2:49" },
     { id: 233, title: "Safari", artist: "J Balvin ft. Pharrell", duration: "3:27" },
@@ -330,7 +406,7 @@ export const songsFromArtist = {
     { id: 239, title: "Tranquila", artist: "J Balvin", duration: "3:17" },
     { id: 240, title: "Loco Contigo", artist: "DJ Snake ft. J Balvin & Tyga", duration: "3:06" },
   ],
-  Iza: [
+  24: [
     { id: 241, title: "Dona de Mim", artist: "IZA", duration: "3:36" },
     { id: 242, title: "Meu Talismã", artist: "IZA", duration: "3:38" },
     { id: 243, title: "Pesadão", artist: "IZA ft. Marcelo Falcão", duration: "3:07" },
@@ -342,7 +418,7 @@ export const songsFromArtist = {
     { id: 249, title: "Droga", artist: "IZA", duration: "3:42" },
     { id: 250, title: "Esse Brilho é Meu", artist: "IZA", duration: "2:51" },
   ],
-  ImagineDragons: [
+  25: [
     { id: 251, title: "Believer", artist: "Imagine Dragons", duration: "3:24" },
     { id: 252, title: "Demons", artist: "Imagine Dragons", duration: "2:57" },
     { id: 253, title: "Radioactive", artist: "Imagine Dragons", duration: "3:06" },
@@ -354,7 +430,7 @@ export const songsFromArtist = {
     { id: 259, title: "It's Time", artist: "Imagine Dragons", duration: "4:00" },
     { id: 260, title: "Bad Liar", artist: "Imagine Dragons", duration: "4:20" },
   ],
-  HarryStyles: [
+  26: [
     { id: 261, title: "As It Was", artist: "Harry Styles", duration: "2:47" },
     { id: 262, title: "Watermelon Sugar", artist: "Harry Styles", duration: "2:54" },
     { id: 263, title: "Sign of the Times", artist: "Harry Styles", duration: "5:41" },
@@ -366,7 +442,7 @@ export const songsFromArtist = {
     { id: 269, title: "Daylight", artist: "Harry Styles", duration: "2:44" },
     { id: 270, title: "Matilda", artist: "Harry Styles", duration: "4:05" },
   ],
-  Nathanzinho: [
+  27: [
     { id: 271, title: "Love Gostosinho", artist: "Nattan & Mari Fernandez", duration: "2:44" },
     { id: 272, title: "Tem Cabaré Essa Noite", artist: "Nattan & Nivaldo Marques", duration: "2:50" },
     { id: 273, title: "Storiezin", artist: "Nattan", duration: "2:58" },
@@ -378,7 +454,7 @@ export const songsFromArtist = {
     { id: 279, title: "Diferente das Diferentes", artist: "Nattan", duration: "3:03" },
     { id: 280, title: "Diz Aí", artist: "Nattan", duration: "2:40" },
   ],
-  GustavoLima: [
+  28: [
     { id: 281, title: "Apelido Carinhoso", artist: "Gusttavo Lima", duration: "3:28" },
     { id: 282, title: "Zé da Recaída", artist: "Gusttavo Lima", duration: "3:21" },
     { id: 283, title: "Fala Mal de Mim", artist: "Gusttavo Lima", duration: "3:18" },
@@ -390,7 +466,7 @@ export const songsFromArtist = {
     { id: 289, title: "Desejo Imortal", artist: "Gusttavo Lima", duration: "3:33" },
     { id: 290, title: "Homem de Família", artist: "Gusttavo Lima", duration: "3:15" },
   ],
-  BrunoMars: [
+  29: [
     { id: 291, title: "Uptown Funk", artist: "Mark Ronson ft. Bruno Mars", duration: "4:30" },
     { id: 292, title: "That's What I Like", artist: "Bruno Mars", duration: "3:26" },
     { id: 293, title: "Just the Way You Are", artist: "Bruno Mars", duration: "3:41" },
@@ -402,7 +478,7 @@ export const songsFromArtist = {
     { id: 299, title: "When I Was Your Man", artist: "Bruno Mars", duration: "3:33" },
     { id: 300, title: "Leave The Door Open", artist: "Silk Sonic (Bruno Mars & Anderson .Paak)", duration: "4:02" },
   ],
-  FiftyCent: [
+  30: [
     { id: 301, title: "In Da Club", artist: "50 Cent", duration: "3:13" },
     { id: 302, title: "Candy Shop", artist: "50 Cent ft. Olivia", duration: "3:29" },
     { id: 303, title: "21 Questions", artist: "50 Cent ft. Nate Dogg", duration: "3:44" },
@@ -414,7 +490,7 @@ export const songsFromArtist = {
     { id: 309, title: "Outta Control", artist: "50 Cent", duration: "3:23" },
     { id: 310, title: "Hustler's Ambition", artist: "50 Cent", duration: "3:59" },
   ],
-  Abba: [
+  31: [
     { id: 311, title: "Dancing Queen", artist: "ABBA", duration: "3:52" },
     { id: 312, title: "Mamma Mia", artist: "ABBA", duration: "3:33" },
     { id: 313, title: "Gimme! Gimme! Gimme!", artist: "ABBA", duration: "3:58" },
@@ -426,7 +502,7 @@ export const songsFromArtist = {
     { id: 319, title: "Knowing Me, Knowing You", artist: "ABBA", duration: "4:02" },
     { id: 320, title: "Super Trouper", artist: "ABBA", duration: "4:13" },
   ],
-  AcDc: [
+  32: [
     { id: 321, title: "Back In Black", artist: "AC/DC", duration: "4:15" },
     { id: 322, title: "Highway to Hell", artist: "AC/DC", duration: "3:28" },
     { id: 323, title: "Thunderstruck", artist: "AC/DC", duration: "4:52" },
@@ -438,7 +514,7 @@ export const songsFromArtist = {
     { id: 329, title: "For Those About to Rock", artist: "AC/DC", duration: "5:44" },
     { id: 330, title: "Rock and Roll Ain’t Noise Pollution", artist: "AC/DC", duration: "4:15" },
   ],
-  Akon: [
+  33: [
     { id: 331, title: "Smack That", artist: "Akon ft. Eminem", duration: "3:32" },
     { id: 332, title: "Lonely", artist: "Akon", duration: "3:55" },
     { id: 333, title: "Right Now (Na Na Na)", artist: "Akon", duration: "4:01" },
@@ -450,7 +526,7 @@ export const songsFromArtist = {
     { id: 339, title: "Locked Up", artist: "Akon ft. Styles P", duration: "3:57" },
     { id: 340, title: "Bananza (Belly Dancer)", artist: "Akon", duration: "4:00" },
   ],
-  Annita: [
+  34: [
     { id: 341, title: "Envolver", artist: "Anitta", duration: "3:13" },
     { id: 342, title: "Show das Poderosas", artist: "Anitta", duration: "2:56" },
     { id: 343, title: "Bang", artist: "Anitta", duration: "3:42" },
@@ -462,7 +538,7 @@ export const songsFromArtist = {
     { id: 349, title: "Funk Rave", artist: "Anitta", duration: "2:30" },
     { id: 350, title: "Essa Mina é Louca", artist: "Anitta ft. Jhama", duration: "2:55" },
   ],
-  ArianaGrande: [
+  35: [
     { id: 351, title: "7 rings", artist: "Ariana Grande", duration: "2:59" },
     { id: 352, title: "Thank U, Next", artist: "Ariana Grande", duration: "3:27" },
     { id: 353, title: "No Tears Left to Cry", artist: "Ariana Grande", duration: "3:26" },
@@ -474,7 +550,7 @@ export const songsFromArtist = {
     { id: 359, title: "Problem", artist: "Ariana Grande ft. Iggy Azalea", duration: "3:14" },
     { id: 360, title: "God is a woman", artist: "Ariana Grande", duration: "3:17" },
   ],
-  BadBunny: [
+  36: [
     { id: 361, title: "Tití Me Preguntó", artist: "Bad Bunny", duration: "4:03" },
     { id: 362, title: "Me Porto Bonito", artist: "Bad Bunny & Chencho Corleone", duration: "2:58" },
     { id: 363, title: "Ojitos Lindos", artist: "Bad Bunny & Bomba Estéreo", duration: "4:18" },
@@ -486,7 +562,7 @@ export const songsFromArtist = {
     { id: 369, title: "Amorfoda", artist: "Bad Bunny", duration: "3:31" },
     { id: 370, title: "Un Preview", artist: "Bad Bunny", duration: "2:46" },
   ],
-  Beyonce: [
+  37: [
     { id: 371, title: "Halo", artist: "Beyoncé", duration: "3:44" },
     { id: 372, title: "Crazy in Love", artist: "Beyoncé ft. Jay-Z", duration: "3:56" },
     { id: 373, title: "Single Ladies", artist: "Beyoncé", duration: "3:13" },
@@ -498,7 +574,7 @@ export const songsFromArtist = {
     { id: 379, title: "Drunk in Love", artist: "Beyoncé ft. Jay-Z", duration: "5:23" },
     { id: 380, title: "Formation", artist: "Beyoncé", duration: "3:26" },
   ],
-  BilliAlish: [
+  38: [
     { id: 381, title: "Bad Guy", artist: "Billie Eilish", duration: "3:14" },
     { id: 382, title: "Happier Than Ever", artist: "Billie Eilish", duration: "4:58" },
     { id: 383, title: "Everything I Wanted", artist: "Billie Eilish", duration: "4:05" },
@@ -510,7 +586,7 @@ export const songsFromArtist = {
     { id: 389, title: "My Future", artist: "Billie Eilish", duration: "3:28" },
     { id: 390, title: "I Love You", artist: "Billie Eilish", duration: "4:52" },
   ],
-  BriteneySpears: [
+  39: [
     { id: 391, title: "...Baby One More Time", artist: "Britney Spears", duration: "3:30" },
     { id: 392, title: "Toxic", artist: "Britney Spears", duration: "3:20" },
     { id: 393, title: "Oops!... I Did It Again", artist: "Britney Spears", duration: "3:32" },
@@ -522,7 +598,7 @@ export const songsFromArtist = {
     { id: 399, title: "Everytime", artist: "Britney Spears", duration: "3:53" },
     { id: 400, title: "Criminal", artist: "Britney Spears", duration: "3:45" },
   ],
-  CardiB: [
+  40: [
     { id: 401, title: "WAP", artist: "Cardi B ft. Megan Thee Stallion", duration: "3:07" },
     { id: 402, title: "I Like It", artist: "Cardi B ft. Bad Bunny & J Balvin", duration: "4:13" },
     { id: 403, title: "Bodak Yellow", artist: "Cardi B", duration: "3:44" },
@@ -534,7 +610,7 @@ export const songsFromArtist = {
     { id: 409, title: "Please Me", artist: "Cardi B & Bruno Mars", duration: "3:21" },
     { id: 410, title: "Hot Sh*t", artist: "Cardi B ft. Kanye West & Lil Durk", duration: "3:42" },
   ],
-  ColdPlay: [
+  41: [
     { id: 411, title: "Yellow", artist: "Coldplay", duration: "4:29" },
     { id: 412, title: "Viva La Vida", artist: "Coldplay", duration: "4:02" },
     { id: 413, title: "Fix You", artist: "Coldplay", duration: "4:55" },
@@ -546,7 +622,7 @@ export const songsFromArtist = {
     { id: 419, title: "Adventure of a Lifetime", artist: "Coldplay", duration: "4:23" },
     { id: 420, title: "My Universe", artist: "Coldplay & BTS", duration: "3:48" },
   ],
-  CrisBrown: [
+  42: [
     { id: 421, title: "Under the Influence", artist: "Chris Brown", duration: "3:04" },
     { id: 422, title: "No Guidance", artist: "Chris Brown ft. Drake", duration: "4:21" },
     { id: 423, title: "Forever", artist: "Chris Brown", duration: "4:38" },
@@ -558,7 +634,7 @@ export const songsFromArtist = {
     { id: 429, title: "Don't Wake Me Up", artist: "Chris Brown", duration: "3:42" },
     { id: 430, title: "Turn Up the Music", artist: "Chris Brown", duration: "3:47" },
   ],
-  Djavan: [
+  43: [
     { id: 431, title: "Oceano", artist: "Djavan", duration: "3:50" },
     { id: 432, title: "Sina", artist: "Djavan", duration: "4:03" },
     { id: 433, title: "Flor de Lis", artist: "Djavan", duration: "3:44" },
@@ -570,7 +646,7 @@ export const songsFromArtist = {
     { id: 439, title: "Nem Um Dia", artist: "Djavan", duration: "3:53" },
     { id: 440, title: "Pétala", artist: "Djavan", duration: "4:28" },
   ],
-  DojaCat: [
+  44: [
      { id: 441, title: "Say So", artist: "Doja Cat", duration: "3:57" },
     { id: 442, title: "Woman", artist: "Doja Cat", duration: "2:52" },
     { id: 443, title: "Paint the Town Red", artist: "Doja Cat", duration: "3:51" },
@@ -582,7 +658,7 @@ export const songsFromArtist = {
     { id: 449, title: "Ain’t Sh*t", artist: "Doja Cat", duration: "2:54" },
     { id: 450, title: "Get Into It (Yuh)", artist: "Doja Cat", duration: "2:18" },
   ],
-  DrDre: [
+  45: [
     { id: 451, title: "Forgot About Dre", artist: "Dr. Dre ft. Eminem", duration: "3:42" },
     { id: 452, title: "Still D.R.E.", artist: "Dr. Dre ft. Snoop Dogg", duration: "4:31" },
     { id: 453, title: "The Next Episode", artist: "Dr. Dre ft. Snoop Dogg", duration: "2:41" },
@@ -594,7 +670,7 @@ export const songsFromArtist = {
     { id: 459, title: "Xxplosive", artist: "Dr. Dre", duration: "3:46" },
     { id: 460, title: "Deep Cover", artist: "Dr. Dre & Snoop Dogg", duration: "4:07" },
   ],
-  Drake: [
+  46: [
     { id: 461, title: "One Dance", artist: "Drake ft. Wizkid & Kyla", duration: "2:54" },
     { id: 462, title: "God's Plan", artist: "Drake", duration: "3:18" },
     { id: 463, title: "Hotline Bling", artist: "Drake", duration: "4:27" },
@@ -606,7 +682,7 @@ export const songsFromArtist = {
     { id: 469, title: "Jimmy Cooks", artist: "Drake ft. 21 Savage", duration: "3:38" },
     { id: 470, title: "Laugh Now Cry Later", artist: "Drake ft. Lil Durk", duration: "4:21" },
   ],
-  DuaLipa: [
+  47: [
     { id: 471, title: "Levitating", artist: "Dua Lipa", duration: "3:23" },
     { id: 472, title: "Don't Start Now", artist: "Dua Lipa", duration: "3:03" },
     { id: 473, title: "New Rules", artist: "Dua Lipa", duration: "3:29" },
@@ -618,7 +694,7 @@ export const songsFromArtist = {
     { id: 479, title: "Be the One", artist: "Dua Lipa", duration: "3:24" },
     { id: 480, title: "Dance The Night", artist: "Dua Lipa", duration: "2:56" },
   ],
-  EdShereen: [
+  48: [
     { id: 481, title: "Shape of You", artist: "Ed Sheeran", duration: "3:53" },
     { id: 482, title: "Perfect", artist: "Ed Sheeran", duration: "4:23" },
     { id: 483, title: "Thinking Out Loud", artist: "Ed Sheeran", duration: "4:41" },
@@ -630,7 +706,7 @@ export const songsFromArtist = {
     { id: 489, title: "Afterglow", artist: "Ed Sheeran", duration: "3:05" },
     { id: 490, title: "Galway Girl", artist: "Ed Sheeran", duration: "2:50" },
   ],
-  EltonJohn: [
+  49: [
     { id: 491, title: "Rocket Man", artist: "Elton John", duration: "4:41" },
     { id: 492, title: "Tiny Dancer", artist: "Elton John", duration: "6:17" },
     { id: 493, title: "Your Song", artist: "Elton John", duration: "4:00" },
@@ -642,7 +718,7 @@ export const songsFromArtist = {
     { id: 499, title: "Candle in the Wind", artist: "Elton John", duration: "3:50" },
     { id: 500, title: "Goodbye Yellow Brick Road", artist: "Elton John", duration: "3:13" },
   ],
-  Eminem: [
+  50: [
     { id: 501, title: "Lose Yourself", artist: "Eminem", duration: "5:20" },
     { id: 502, title: "The Real Slim Shady", artist: "Eminem", duration: "4:44" },
     { id: 503, title: "Without Me", artist: "Eminem", duration: "4:50" },
@@ -654,7 +730,7 @@ export const songsFromArtist = {
     { id: 509, title: "Rap God", artist: "Eminem", duration: "6:03" },
     { id: 510, title: "When I'm Gone", artist: "Eminem", duration: "4:40" },
   ],
-  HenriqueJuliano: [
+  51: [
      { id: 511, title: "Cuida Bem Dela", artist: "Henrique & Juliano", duration: "3:26" },
   { id: 512, title: "Liberdade Provisória", artist: "Henrique & Juliano", duration: "3:16" },
   { id: 513, title: "Vidinha de Balada", artist: "Henrique & Juliano", duration: "3:05" },
@@ -666,7 +742,7 @@ export const songsFromArtist = {
   { id: 519, title: "Vidinha de Balada (Acústico)", artist: "Henrique & Juliano", duration: "3:02" },
   { id: 520, title: "Flor e o Beija-Flor (Acústico)", artist: "Henrique & Juliano", duration: "3:51" },
   ],
-  LuanSantana: [
+  52: [
     { id: 521, title: "Meteoro", artist: "Luan Santana", duration: "3:42" },
     { id: 522, title: "Te Esperando", artist: "Luan Santana", duration: "3:36" },
     { id: 523, title: "Sogrão Caprichou", artist: "Luan Santana", duration: "3:40" },
@@ -678,7 +754,7 @@ export const songsFromArtist = {
     { id: 529, title: "Sinais", artist: "Luan Santana", duration: "3:40" },
     { id: 530, title: "Tudo Que Você Quiser", artist: "Luan Santana", duration: "3:56" },
   ],
-  MatheusKauan: [
+  53: [
     { id: 531, title: "Quem Pegou, Pegou", artist: "Matheus & Kauan", duration: "3:21" },
     { id: 532, title: "O Nosso Santo Bateu", artist: "Matheus & Kauan", duration: "3:46" },
     { id: 533, title: "Tudo Que Tem Que Ser", artist: "Matheus & Kauan", duration: "3:36" },
@@ -690,7 +766,7 @@ export const songsFromArtist = {
     { id: 539, title: "Cerveja, Sal e Limão", artist: "Matheus & Kauan", duration: "3:40" },
     { id: 540, title: "Eu Já Tava Bem", artist: "Matheus & Kauan", duration: "3:50" },
   ],
-  McTuto: [
+  54: [
     { id: 541, title: "Chama o Síndico", artist: "MC Tuto", duration: "3:20" },
     { id: 542, title: "Te Quero do Jeito Que Quiser", artist: "MC Tuto", duration: "3:25" },
     { id: 543, title: "Vai Levando", artist: "MC Tuto", duration: "3:15" },
@@ -702,7 +778,7 @@ export const songsFromArtist = {
     { id: 549, title: "Recaída", artist: "MC Tuto", duration: "3:16" },
     { id: 550, title: "Dona da Noite", artist: "MC Tuto", duration: "3:45" },
   ],
-  Marron5: [
+  55: [
     { id: 551, title: "Sugar", artist: "Maroon 5", duration: "3:55" },
     { id: 552, title: "Girls Like You", artist: "Maroon 5 ft. Cardi B", duration: "3:55" },
     { id: 553, title: "Memories", artist: "Maroon 5", duration: "3:09" },
@@ -714,7 +790,7 @@ export const songsFromArtist = {
     { id: 559, title: "Maps", artist: "Maroon 5", duration: "3:39" },
     { id: 560, title: "Cold", artist: "Maroon 5 ft. Future", duration: "3:32" },
   ],
-  Rihanna: [
+  56: [
     { id: 561, title: "Umbrella", artist: "Rihanna ft. Jay-Z", duration: "4:35" },
     { id: 562, title: "Diamonds", artist: "Rihanna", duration: "3:45" },
     { id: 563, title: "Work", artist: "Rihanna ft. Drake", duration: "3:39" },
@@ -726,79 +802,79 @@ export const songsFromArtist = {
     { id: 569, title: "SOS", artist: "Rihanna", duration: "4:00" },
     { id: 570, title: "Love on the Brain", artist: "Rihanna", duration: "3:44" },
   ],
-  LuizFonsi: [
+  57: [
     { id: 571, title: "Despacito", artist: "Luis Fonsi ft. Daddy Yankee", duration: "3:48" },
-  { id: 572, title: "Échame La Culpa", artist: "Luis Fonsi & Demi Lovato", duration: "2:53" },
-  { id: 573, title: "Imposible", artist: "Luis Fonsi ft. Ozuna", duration: "3:37" },
-  { id: 574, title: "Nada Es Para Siempre", artist: "Luis Fonsi", duration: "3:57" },
-  { id: 575, title: "Aquí Estoy Yo", artist: "Luis Fonsi", duration: "4:16" },
-  { id: 576, title: "No Me Doy Por Vencido", artist: "Luis Fonsi", duration: "4:15" },
-  { id: 577, title: "Corazón En La Maleta", artist: "Luis Fonsi", duration: "3:38" },
-  { id: 578, title: "Se Supone", artist: "Luis Fonsi", duration: "3:39" },
-  { id: 579, title: "Por Una Mujer", artist: "Luis Fonsi", duration: "4:00" },
-  { id: 580, title: "Gritar", artist: "Luis Fonsi", duration: "3:55" },
-  ],
-  BlackPink: [
+    { id: 572, title: "Échame La Culpa", artist: "Luis Fonsi & Demi Lovato", duration: "2:53" },
+    { id: 573, title: "Imposible", artist: "Luis Fonsi ft. Ozuna", duration: "3:37" },
+    { id: 574, title: "Nada Es Para Siempre", artist: "Luis Fonsi", duration: "3:57" },
+    { id: 575, title: "Aquí Estoy Yo", artist: "Luis Fonsi", duration: "4:16" },
+    { id: 576, title: "No Me Doy Por Vencido", artist: "Luis Fonsi", duration: "4:15" },
+    { id: 577, title: "Corazón En La Maleta", artist: "Luis Fonsi", duration: "3:38" },
+    { id: 578, title: "Se Supone", artist: "Luis Fonsi", duration: "3:39" },
+    { id: 579, title: "Por Una Mujer", artist: "Luis Fonsi", duration: "4:00" },
+    { id: 580, title: "Gritar", artist: "Luis Fonsi", duration: "3:55" },
+    ],
+  58: [
     { id: 581, title: "Ddu-Du Ddu-Du", artist: "BLACKPINK", duration: "3:29" },
-  { id: 582, title: "Kill This Love", artist: "BLACKPINK", duration: "3:37" },
-  { id: 583, title: "How You Like That", artist: "BLACKPINK", duration: "3:01" },
-  { id: 584, title: "Lovesick Girls", artist: "BLACKPINK", duration: "3:23" },
-  { id: 585, title: "As If It's Your Last", artist: "BLACKPINK", duration: "3:31" },
-  { id: 586, title: "Whistle", artist: "BLACKPINK", duration: "3:34" },
-  { id: 587, title: "JUMP", artist: "BLACKPINK", duration: "2:44"},
-  { id: 588, title: "Pink Venom", artist: "BLACKPINK", duration: "3:19"},
-  { id: 589, title: "STAY", artist: "BLACKPINK", duration: "3:50"},
-  { id: 590, title: "Forever Young", artist: "BLACKPINK", duration: "3:59"}
+    { id: 582, title: "Kill This Love", artist: "BLACKPINK", duration: "3:37" },
+    { id: 583, title: "How You Like That", artist: "BLACKPINK", duration: "3:01" },
+    { id: 584, title: "Lovesick Girls", artist: "BLACKPINK", duration: "3:23" },
+    { id: 585, title: "As If It's Your Last", artist: "BLACKPINK", duration: "3:31" },
+    { id: 586, title: "Whistle", artist: "BLACKPINK", duration: "3:34" },
+    { id: 587, title: "JUMP", artist: "BLACKPINK", duration: "2:44"},
+    { id: 588, title: "Pink Venom", artist: "BLACKPINK", duration: "3:19"},
+    { id: 589, title: "STAY", artist: "BLACKPINK", duration: "3:50"},
+    { id: 590, title: "Forever Young", artist: "BLACKPINK", duration: "3:59"}
   ],
-  MenosMais: [
+  59: [
     { id: 591, title: "Melhor Eu Ir", artist: "Menos é Mais", duration: "3:31" },
-  { id: 592, title: "Adorei Te Ver / Ainda Gosto Dela", artist: "Menos é Mais", duration: "4:45" },
-  { id: 593, title: "Ligando os Fatos", artist: "Menos é Mais", duration: "3:33" },
-  { id: 594, title: "Péssimo Negócio", artist: "Menos é Mais", duration: "3:47" },
-  { id: 595, title: "Vou Ver e Te Aviso", artist: "Menos é Mais", duration: "3:41" },
-  { id: 596, title: "Recaída / Mineirinho / Vai Embora", artist: "Menos é Mais", duration: "4:01" },
-  { id: 597, title: "Melhor Eu Ir / Vai Me Dando Corda", artist: "Menos é Mais", duration: "4:12" },
-  { id: 598, title: "Pra Você Acreditar", artist: "Menos é Mais", duration: "3:58" },
-  { id: 599, title: "Lapada Dela", artist: "Menos é Mais", duration: "2:44" },
-  { id: 600, title: "Melhor Eu Ir / Ligando os Fatos", artist: "Menos é Mais", duration: "4:10" },
+    { id: 592, title: "Adorei Te Ver / Ainda Gosto Dela", artist: "Menos é Mais", duration: "4:45" },
+    { id: 593, title: "Ligando os Fatos", artist: "Menos é Mais", duration: "3:33" },
+    { id: 594, title: "Péssimo Negócio", artist: "Menos é Mais", duration: "3:47" },
+    { id: 595, title: "Vou Ver e Te Aviso", artist: "Menos é Mais", duration: "3:41" },
+    { id: 596, title: "Recaída / Mineirinho / Vai Embora", artist: "Menos é Mais", duration: "4:01" },
+    { id: 597, title: "Melhor Eu Ir / Vai Me Dando Corda", artist: "Menos é Mais", duration: "4:12" },
+    { id: 598, title: "Pra Você Acreditar", artist: "Menos é Mais", duration: "3:58" },
+    { id: 599, title: "Lapada Dela", artist: "Menos é Mais", duration: "2:44" },
+    { id: 600, title: "Melhor Eu Ir / Ligando os Fatos", artist: "Menos é Mais", duration: "4:10" },
   ],
-  MilionarioJose: [
+  60: [
     { id: 601, title: "Estrada da Vida", artist: "José Rico & Milionário", duration: "3:23" },
-  { id: 602, title: "Sonho de Caboclo", artist: "José Rico & Milionário", duration: "3:40" },
-  { id: 603, title: "Pense em Mim", artist: "José Rico & Milionário", duration: "3:35" },
-  { id: 604, title: "Ainda Ontem Chorei de Saudade", artist: "José Rico & Milionário", duration: "3:47" },
-  { id: 605, title: "Saudade de Minha Terra", artist: "José Rico & Milionário", duration: "3:55" },
-  { id: 606, title: "Duas Lágrimas", artist: "José Rico & Milionário", duration: "3:25" },
-  { id: 607, title: "Frio da Solidão", artist: "José Rico & Milionário", duration: "3:40" },
-  { id: 608, title: "Cachaça", artist: "José Rico & Milionário", duration: "3:30" },
-  { id: 609, title: "Fui Eu", artist: "José Rico & Milionário", duration: "3:36" },
-  { id: 610, title: "Comitiva Esperança", artist: "José Rico & Milionário", duration: "3:44" },
+    { id: 602, title: "Sonho de Caboclo", artist: "José Rico & Milionário", duration: "3:40" },
+    { id: 603, title: "Pense em Mim", artist: "José Rico & Milionário", duration: "3:35" },
+    { id: 604, title: "Ainda Ontem Chorei de Saudade", artist: "José Rico & Milionário", duration: "3:47" },
+    { id: 605, title: "Saudade de Minha Terra", artist: "José Rico & Milionário", duration: "3:55" },
+    { id: 606, title: "Duas Lágrimas", artist: "José Rico & Milionário", duration: "3:25" },
+    { id: 607, title: "Frio da Solidão", artist: "José Rico & Milionário", duration: "3:40" },
+    { id: 608, title: "Cachaça", artist: "José Rico & Milionário", duration: "3:30" },
+    { id: 609, title: "Fui Eu", artist: "José Rico & Milionário", duration: "3:36" },
+    { id: 610, title: "Comitiva Esperança", artist: "José Rico & Milionário", duration: "3:44" },
   ],
-  BoxMedley: [
+  61: [
     { id: 611, title: "Medley Sertanejo", artist: "Box Medley", duration: "10:00" },
-  { id: 612, title: "Medley Arrocha", artist: "Box Medley", duration: "9:30" },
-  { id: 613, title: "Medley Forró", artist: "Box Medley", duration: "8:45" },
-  { id: 614, title: "Medley Brega", artist: "Box Medley", duration: "9:15" },
-  { id: 615, title: "Medley Pagode", artist: "Box Medley", duration: "9:50" },
-  { id: 616, title: "Medley Samba", artist: "Box Medley", duration: "10:10" },
-  { id: 617, title: "Medley Rock Brasil", artist: "Box Medley", duration: "9:40" },
-  { id: 618, title: "Medley Axé", artist: "Box Medley", duration: "9:00" },
-  { id: 619, title: "Medley MPB", artist: "Box Medley", duration: "8:55" },
-  { id: 620, title: "Medley Pop", artist: "Box Medley", duration: "10:05" },
+    { id: 612, title: "Medley Arrocha", artist: "Box Medley", duration: "9:30" },
+    { id: 613, title: "Medley Forró", artist: "Box Medley", duration: "8:45" },
+    { id: 614, title: "Medley Brega", artist: "Box Medley", duration: "9:15" },
+    { id: 615, title: "Medley Pagode", artist: "Box Medley", duration: "9:50" },
+    { id: 616, title: "Medley Samba", artist: "Box Medley", duration: "10:10" },
+    { id: 617, title: "Medley Rock Brasil", artist: "Box Medley", duration: "9:40" },
+    { id: 618, title: "Medley Axé", artist: "Box Medley", duration: "9:00" },
+    { id: 619, title: "Medley MPB", artist: "Box Medley", duration: "8:55" },
+    { id: 620, title: "Medley Pop", artist: "Box Medley", duration: "10:05" },
   ],
-  Magalhaes: [
+  62: [
     { id: 621, title: "Larga de Bobeira", artist: "Léo Magalhães", duration: "3:15" },
-  { id: 622, title: "Esquema Preferido", artist: "Léo Magalhães", duration: "3:22" },
-  { id: 623, title: "Pode Me Ligar", artist: "Léo Magalhães", duration: "3:18" },
-  { id: 624, title: "Galera da Pesada", artist: "Léo Magalhães", duration: "3:40" },
-  { id: 625, title: "Você é Louca", artist: "Léo Magalhães", duration: "3:25" },
-  { id: 626, title: "Paixão de Verão", artist: "Léo Magalhães", duration: "3:30" },
-  { id: 627, title: "Faz Férias com a Gente", artist: "Léo Magalhães", duration: "3:12" },
-  { id: 628, title: "Léo Magalhães", artist: "Léo Magalhães", duration: "3:20" },
-  { id: 629, title: "Mexe o Bumbum", artist: "Léo Magalhães", duration: "3:35" },
-  { id: 630, title: "Sinal de Saudade", artist: "Léo Magalhães", duration: "3:27" },
+    { id: 622, title: "Esquema Preferido", artist: "Léo Magalhães", duration: "3:22" },
+    { id: 623, title: "Pode Me Ligar", artist: "Léo Magalhães", duration: "3:18" },
+    { id: 624, title: "Galera da Pesada", artist: "Léo Magalhães", duration: "3:40" },
+    { id: 625, title: "Você é Louca", artist: "Léo Magalhães", duration: "3:25" },
+    { id: 626, title: "Paixão de Verão", artist: "Léo Magalhães", duration: "3:30" },
+    { id: 627, title: "Faz Férias com a Gente", artist: "Léo Magalhães", duration: "3:12" },
+    { id: 628, title: "Léo Magalhães", artist: "Léo Magalhães", duration: "3:20" },
+    { id: 629, title: "Mexe o Bumbum", artist: "Léo Magalhães", duration: "3:35" },
+    { id: 630, title: "Sinal de Saudade", artist: "Léo Magalhães", duration: "3:27" },
   ],
-  SUD: [
+  63: [
     { id: 631, title: "If you Believe you", artist: "Strive to Be, Patch Crowe", duration: "2:33", img: youth2021},
     { id: 632, title: "No apoligies", artist: "Strive to Be, Darlin Hatch", duration: "2:36", img: noApologies},
     { id: 633, title: "Trust in the Lord", artist: "Strive to Be, Lizzy Newbold", duration: "3:35", img: youth2022},

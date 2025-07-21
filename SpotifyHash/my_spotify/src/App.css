@@ -300,15 +300,26 @@ a{
   color: var(--cor14);
   margin: 10px;
   cursor: pointer;
+  transition: 0.5s;
+}
+.PlayerBtn > .btn:hover{
+  transform: scale(1.1);
 }
 .progress {
   background-color: var(--cor15);
-  padding: 10px;
   border-radius: 20px;
-  width: 200px;
-  height: 6px;
+  width: 400px;
+  height: 20px;
   max-width: 90vw; /* Limita largura no celular */
   overflow: hidden;
+}
+.progress > .progress__bar{
+  padding: 10px;
+  height: 15px;
+  width: 0%;
+  background-color: var(--cor14);
+  transition: 0.1s linear;
+  border-radius: 20px;
 }
 .PlayerMusicBar {
   display: flex;
