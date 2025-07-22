@@ -125,9 +125,50 @@ import Jackson4 from './songs/MichaelJackson/bad.jpeg';
 import Jackson5 from './songs/MichaelJackson/blackWhite.jpeg';
 import Jackson6 from './songs/MichaelJackson/Jackson3.jpeg';
 
+// 50 cent
+import fiftyCent from './songs/fiftycent/inDacclub.jpeg';
+import fiftyCent1 from './songs/fiftycent/candyChop.jpeg';
+import fiftyCent2 from './songs/fiftycent/Window_Shopper.jpeg';
+import fiftyCent3 from './songs/fiftycent/Ayo_Technology.jpeg';
+import fiftyCent4 from './songs/fiftycent/Outta_Control.jpeg';
+import fiftyCent5 from './songs/fiftycent/bestFriend.jpg';
+
+// Queen
+import queen1 from './songs/queen/queen1.jpeg';
+import queen2 from './songs/queen/queen2.jpeg';
+import queen3 from './songs/queen/queen3.jpeg';
+import queen4 from './songs/queen/queen4.jpeg'; 
+import queen5 from './songs/queen/queen5.jpeg';
+import queen6 from './songs/queen/queen6.jpeg';
+
+// Menudo
+import menudo1 from './songs/Menudo/menudo1.jpeg';
+import menudo2 from './songs/Menudo/menudo2.avif';
+import menudo3 from './songs/Menudo/menudo3.avif';
+import menudo4 from './songs/Menudo/menudo4.jpeg';
+
+// Mc Cabelinho
+import cabelinho1 from './songs/McCabelinho/cabelinho1.jpeg';
+import cabelinho2 from './songs/McCabelinho/cabelinho2.jpeg';
+import cabelinho3 from './songs/McCabelinho/cabelinho3.jpeg';
+import cabelinho4 from './songs/McCabelinho/cabelinho4.jpeg';
+
+// Matue
+import matue1 from './songs/matue/matue1.jpg';
+import matue2 from './songs/matue/matue2.jpeg';
+import matue3 from './songs/matue/matue3.jpeg';
+import matue4 from './songs/matue/matue4.jpeg';
+import matue5 from './songs/matue/matue5.jpeg';
+import matue6 from './songs/matue/matue6.jpeg';
+import matue7 from './songs/matue/matue7.jpeg';
+import matue8 from './songs/matue/matue8.jpeg';
+
+// Lionel Richie
+import Lionel1 from './songs/Lionel/lionel1.jpeg';
+import Lionel2 from './songs/Lionel/lionel2.jpeg';
+import Lionel3 from './songs/Lionel/lionel3.jpeg';
+import Lionel4 from './songs/Lionel/lionel4.jpeg';
 // Songs 
-
-
 
 export const songsFromArtist = {
   1: [
@@ -287,64 +328,64 @@ export const songsFromArtist = {
     { id: 130, title: "Don't Stop 'Til You Get Enough", artist: "Michael Jackson", duration: "6:05", img: Jackson6 },
   ],
   14: [
-    { id: 131, title: "Bohemian Rhapsody", artist: "Queen", duration: "5:55" },
-    { id: 132, title: "Don't Stop Me Now", artist: "Queen", duration: "3:29" },
-    { id: 133, title: "We Will Rock You", artist: "Queen", duration: "2:02" },
-    { id: 134, title: "Another One Bites The Dust", artist: "Queen", duration: "3:35" },
-    { id: 135, title: "Somebody to Love", artist: "Queen", duration: "4:56" },
-    { id: 136, title: "Crazy Little Thing Called Love", artist: "Queen", duration: "2:42" },
-    { id: 137, title: "We Are The Champions", artist: "Queen", duration: "3:01" },
-    { id: 138, title: "Under Pressure", artist: "Queen & David Bowie", duration: "4:08" },
-    { id: 139, title: "Killer Queen", artist: "Queen", duration: "3:00" },
-    { id: 140, title: "Radio Ga Ga", artist: "Queen", duration: "5:48" },
+    { id: 131, title: "Bohemian Rhapsody", artist: "Queen", duration: "5:55", img: queen1 },
+    { id: 132, title: "Don't Stop Me Now", artist: "Queen", duration: "3:29", img:  queen2 },
+    { id: 133, title: "We Will Rock You", artist: "Queen", duration: "2:02", img:  queen3 },
+    { id: 134, title: "Another One Bites The Dust", artist: "Queen", duration: "3:35", img: queen4 },
+    { id: 135, title: "Somebody to Love", artist: "Queen", duration: "4:56", img:  queen5 },
+    { id: 136, title: "Crazy Little Thing Called Love", artist: "Queen", duration: "2:42", img: queen4 },
+    { id: 137, title: "We Are The Champions", artist: "Queen", duration: "3:01", img:  queen3 },
+    { id: 138, title: "Under Pressure", artist: "Queen & David Bowie", duration: "4:08", img: queen5 },
+    { id: 139, title: "Killer Queen", artist: "Queen", duration: "3:00", img:  queen1 },
+    { id: 140, title: "Radio Ga Ga", artist: "Queen", duration: "5:48", img: queen6},
   ],
   15: [
-    { id: 151, title: "Não Se Reprima", artist: "Menudo", duration: "3:38" },
-    { id: 152, title: "Quero Ser", artist: "Menudo", duration: "3:44" },
-    { id: 153, title: "Diga Sim", artist: "Menudo", duration: "3:46" },
-    { id: 154, title: "Rock da Geração", artist: "Menudo", duration: "3:28" },
-    { id: 155, title: "Se Tu Não Estás", artist: "Menudo", duration: "4:10" },
-    { id: 156, title: "Súbete a Mi Moto", artist: "Menudo", duration: "3:15" },
-    { id: 157, title: "Claridad", artist: "Menudo", duration: "3:50" },
-    { id: 158, title: "Si Tú No Estás", artist: "Menudo", duration: "4:08" },
-    { id: 159, title: "Chicle de Amor", artist: "Menudo", duration: "3:30" },
-    { id: 160, title: "Ella-a-a", artist: "Menudo", duration: "3:45" },
+    { id: 151, title: "Não Se Reprima", artist: "Menudo", duration: "3:38", img: menudo1 },
+    { id: 152, title: "Quero Ser", artist: "Menudo", duration: "3:44", img: menudo2 },
+    { id: 153, title: "Diga Sim", artist: "Menudo", duration: "3:46", img: menudo3 },
+    { id: 154, title: "Rock da Geração", artist: "Menudo", duration: "3:28", img: menudo4 },
+    { id: 155, title: "Se Tu Não Estás", artist: "Menudo", duration: "4:10", img: menudo1 },
+    { id: 156, title: "Súbete a Mi Moto", artist: "Menudo", duration: "3:15", img: menudo2 },
+    { id: 157, title: "Claridad", artist: "Menudo", duration: "3:50", img: menudo2},
+    { id: 158, title: "Si Tú No Estás", artist: "Menudo", duration: "4:08", img: menudo3},
+    { id: 159, title: "Chicle de Amor", artist: "Menudo", duration: "3:30", img:  menudo1 },
+    { id: 160, title: "Ella-a-a", artist: "Menudo", duration: "3:45", img: menudo4 },
   ],
   16: [
-    { id: 161, title: "Coração de Gelo", artist: "MC Cabelinho", duration: "3:02" },
-    { id: 162, title: "Você Gosta Assim", artist: "MC Cabelinho", duration: "2:58" },
-    { id: 163, title: "Barulho do Foguete", artist: "MC Cabelinho", duration: "2:32" },
-    { id: 164, title: "X1", artist: "MC Cabelinho ft. Xamã", duration: "2:56" },
-    { id: 165, title: "Minha Cura", artist: "MC Cabelinho", duration: "3:20" },
-    { id: 166, title: "Fogo e Gasolina", artist: "MC Cabelinho", duration: "2:40" },
-    { id: 167, title: "Modo Avião", artist: "MC Cabelinho", duration: "2:50" },
-    { id: 168, title: "Aonde É o Baile", artist: "MC Cabelinho", duration: "2:48" },
-    { id: 169, title: "Ela É do Tipo", artist: "MC Cabelinho", duration: "2:46" },
-    { id: 170, title: "Pepeka Braba", artist: "MC Cabelinho", duration: "2:55" },
+    { id: 161, title: "Coração de Gelo", artist: "MC Cabelinho", duration: "3:02", img: cabelinho1 },
+    { id: 162, title: "Você Gosta Assim", artist: "MC Cabelinho", duration: "2:58", img: cabelinho2 },
+    { id: 163, title: "Barulho do Foguete", artist: "MC Cabelinho", duration: "2:32", img: cabelinho3 },
+    { id: 164, title: "X1", artist: "MC Cabelinho ft. Xamã", duration: "2:56", img: cabelinho4},
+    { id: 165, title: "Minha Cura", artist: "MC Cabelinho", duration: "3:20", img: cabelinho2},
+    { id: 166, title: "Fogo e Gasolina", artist: "MC Cabelinho", duration: "2:40", img: cabelinho4},
+    { id: 167, title: "Modo Avião", artist: "MC Cabelinho", duration: "2:50", img: cabelinho3},
+    { id: 168, title: "Aonde É o Baile", artist: "MC Cabelinho", duration: "2:48", img: cabelinho2},
+    { id: 169, title: "Ela É do Tipo", artist: "MC Cabelinho", duration: "2:46", img: cabelinho1},
+    { id: 170, title: "Pepeka Braba", artist: "MC Cabelinho", duration: "2:55", img: cabelinho4},
   ],
   17: [
-    { id: 171, title: "Quer Voar", artist: "Matuê", duration: "3:13" },
-    { id: 172, title: "Máquina do Tempo", artist: "Matuê", duration: "3:12" },
-    { id: 173, title: "777-666", artist: "Matuê", duration: "2:36" },
-    { id: 174, title: "Kenny G", artist: "Matuê", duration: "2:52" },
-    { id: 175, title: "Groupies", artist: "Matuê", duration: "3:10" },
-    { id: 176, title: "Anos Luz", artist: "Matuê", duration: "3:33" },
-    { id: 177, title: "Flow Espacial", artist: "Matuê", duration: "2:59" },
-    { id: 178, title: "A Morte do Autotune", artist: "Matuê", duration: "2:51" },
-    { id: 179, title: "Bank", artist: "Matuê", duration: "2:42" },
-    { id: 180, title: "Vampiro", artist: "Matuê, Teto, WIU", duration: "2:56" },
+    { id: 171, title: "Quer Voar", artist: "Matuê", duration: "3:13", img: matue1},
+    { id: 172, title: "Máquina do Tempo", artist: "Matuê", duration: "3:12", img: matue2},
+    { id: 173, title: "777-666", artist: "Matuê", duration: "2:36", img: matue3 },
+    { id: 174, title: "Kenny G", artist: "Matuê", duration: "2:52", img: matue4 },
+    { id: 175, title: "Groupies", artist: "Matuê", duration: "3:10", img: matue6 },
+    { id: 176, title: "Anos Luz", artist: "Matuê", duration: "3:33", img: matue5 },
+    { id: 177, title: "Flow Espacial", artist: "Matuê", duration: "2:59", img: matue7 },
+    { id: 178, title: "A Morte do Autotune", artist: "Matuê", duration: "2:51", img: matue4 },
+    { id: 179, title: "Bank", artist: "Matuê", duration: "2:42", img: matue3},
+    { id: 180, title: "Vampiro", artist: "Matuê, Teto, WIU", duration: "2:56", img:  matue8},
   ],
   18: [
-    { id: 181, title: "Hello", artist: "Lionel Richie", duration: "4:08" },
-    { id: 182, title: "All Night Long", artist: "Lionel Richie", duration: "6:25" },
-    { id: 183, title: "Say You, Say Me", artist: "Lionel Richie", duration: "4:00" },
-    { id: 184, title: "Stuck on You", artist: "Lionel Richie", duration: "3:10" },
-    { id: 185, title: "Easy", artist: "Lionel Richie", duration: "4:21" },
-    { id: 186, title: "Endless Love", artist: "Lionel Richie & Diana Ross", duration: "4:27" },
-    { id: 187, title: "Dancing on the Ceiling", artist: "Lionel Richie", duration: "4:21" },
-    { id: 188, title: "Truly", artist: "Lionel Richie", duration: "3:22" },
-    { id: 189, title: "Penny Lover", artist: "Lionel Richie", duration: "3:46" },
-    { id: 190, title: "You Are", artist: "Lionel Richie", duration: "4:03" },
+    { id: 181, title: "Hello", artist: "Lionel Richie", duration: "4:08", img: Lionel1 },
+    { id: 182, title: "All Night Long", artist: "Lionel Richie", duration: "6:25", img: Lionel2 },
+    { id: 183, title: "Say You, Say Me", artist: "Lionel Richie", duration: "4:00", img: Lionel3 },
+    { id: 184, title: "Stuck on You", artist: "Lionel Richie", duration: "3:10", img: Lionel4},
+    { id: 185, title: "Easy", artist: "Lionel Richie", duration: "4:21", img: Lionel2},
+    { id: 186, title: "Endless Love", artist: "Lionel Richie & Diana Ross", duration: "4:27", img: Lionel2 },
+    { id: 187, title: "Dancing on the Ceiling", artist: "Lionel Richie", duration: "4:21", img: Lionel3},
+    { id: 188, title: "Truly", artist: "Lionel Richie", duration: "3:22", img: Lionel1 },
+    { id: 189, title: "Penny Lover", artist: "Lionel Richie", duration: "3:46", img: Lionel4},
+    { id: 190, title: "You Are", artist: "Lionel Richie", duration: "4:03", img: Lionel1},
   ],
   19: [
     { id: 191, title: "Summertime Sadness", artist: "Lana Del Rey", duration: "4:25" },
@@ -479,16 +520,16 @@ export const songsFromArtist = {
     { id: 300, title: "Leave The Door Open", artist: "Silk Sonic (Bruno Mars & Anderson .Paak)", duration: "4:02" },
   ],
   30: [
-    { id: 301, title: "In Da Club", artist: "50 Cent", duration: "3:13" },
-    { id: 302, title: "Candy Shop", artist: "50 Cent ft. Olivia", duration: "3:29" },
-    { id: 303, title: "21 Questions", artist: "50 Cent ft. Nate Dogg", duration: "3:44" },
-    { id: 304, title: "Just a Lil Bit", artist: "50 Cent", duration: "3:57" },
-    { id: 305, title: "Many Men (Wish Death)", artist: "50 Cent", duration: "4:16" },
-    { id: 306, title: "Window Shopper", artist: "50 Cent", duration: "3:11" },
-    { id: 307, title: "P.I.M.P.", artist: "50 Cent", duration: "4:09" },
-    { id: 308, title: "Ayo Technology", artist: "50 Cent ft. Justin Timberlake", duration: "4:10" },
-    { id: 309, title: "Outta Control", artist: "50 Cent", duration: "3:23" },
-    { id: 310, title: "Hustler's Ambition", artist: "50 Cent", duration: "3:59" },
+    { id: 301, title: "In Da Club", artist: "50 Cent", duration: "3:13", img: fiftyCent },
+    { id: 302, title: "Candy Shop", artist: "50 Cent ft. Olivia", duration: "3:29", img: fiftyCent1},
+    { id: 303, title: "21 Questions", artist: "50 Cent ft. Nate Dogg", duration: "3:44", img: fiftyCent },
+    { id: 304, title: "Just a Lil Bit", artist: "50 Cent", duration: "3:57", img: fiftyCent1 },
+    { id: 305, title: "Many Men (Wish Death)", artist: "50 Cent", duration: "4:16", img: fiftyCent},
+    { id: 306, title: "Window Shopper", artist: "50 Cent", duration: "3:11", img: fiftyCent2},
+    { id: 307, title: "P.I.M.P.", artist: "50 Cent", duration: "4:09", img: fiftyCent},
+    { id: 308, title: "Ayo Technology", artist: "50 Cent ft. Justin Timberlake", duration: "4:10", img: fiftyCent3},
+    { id: 309, title: "Outta Control", artist: "50 Cent", duration: "3:23", img: fiftyCent4},
+    { id: 310, title: "Best Friend", artist: "50 Cent", duration: "4:11", img: fiftyCent5},
   ],
   31: [
     { id: 311, title: "Dancing Queen", artist: "ABBA", duration: "3:52" },

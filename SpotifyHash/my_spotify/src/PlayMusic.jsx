@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import ShawMendes1 from './assets/songs/ShawMendes/Theres_Nothing_Holdin_Me-Back.jpg'
+import imgTeste from './assets/songs/fiftycent/bestFriend.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCirclePlay, faBackwardStep, faForwardStep, faCirclePause, faArrowRotateLeft, faArrowRotateRight } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
-import songTeste from './assets/songs/ShawMendes/AUDIO/audioOne.mp3';
+import songTeste from './assets/songs/fiftycent/audio/Best_Friend.mp3';
 import { useRef, useEffect } from 'react';
 
 const PlayMusic = () => {
@@ -25,13 +25,13 @@ const PlayMusic = () => {
     <>
       <div className='main'>
         <div className='ImgCenter'>
-          <img src={ShawMendes1} alt="Imagem do Artista" />
+          <img src={imgTeste} alt="Imagem do Artista" />
         </div>
       </div>
       <div className='Player'>
           <div className="PlayerImg">
             <Link to='/'>
-              <img src={ShawMendes1} alt="Imagem do Artista" />
+              <img src={imgTeste} alt="Imagem do Artista" />
             </Link>
           </div>
           <div className="ContainerColuna">
@@ -56,8 +56,8 @@ const PlayMusic = () => {
             </div>
           </div>
           <div className="informacoes">
-            <p>There's Nothing Holding'Me Back</p>
-            <p>Shaw Mendes</p>
+            <p>Best Friend</p>
+            <p>50 Cent</p>
           </div>
           <audio src={songTeste} ref={audioPlayer} controls style={{display: 'none'}} onLoadedMetadata={() => setDuration(audioPlayer.current.duration)} onTimeUpdate={() => setCurrentTime(audioPlayer.current.currentTime)}></audio>
       </div>
