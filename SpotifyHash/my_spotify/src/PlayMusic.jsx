@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
-import imgTeste from './assets/songs/fiftycent/bestFriend.jpg'
+import imgTeste from './assets/songs/PostMalone/iHadSomeHelp.jpeg';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCirclePlay, faBackwardStep, faForwardStep, faCirclePause, faArrowRotateLeft, faArrowRotateRight } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
-import songTeste from './assets/songs/fiftycent/audio/Best_Friend.mp3';
+import songTeste from './assets/songs/PostMalone/audio/Post Malone - I Had Some Help (feat. Morgan Wallen) (Official Video).mp3';
 import { useRef, useEffect } from 'react';
 
 const PlayMusic = () => {
@@ -56,8 +57,8 @@ const PlayMusic = () => {
             </div>
           </div>
           <div className="informacoes">
-            <p>Best Friend</p>
-            <p>50 Cent</p>
+            <p>I Had Some Help</p>
+            <p>Post Malone</p>
           </div>
           <audio src={songTeste} ref={audioPlayer} controls style={{display: 'none'}} onLoadedMetadata={() => setDuration(audioPlayer.current.duration)} onTimeUpdate={() => setCurrentTime(audioPlayer.current.currentTime)}></audio>
       </div>

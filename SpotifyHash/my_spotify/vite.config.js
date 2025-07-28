@@ -8,7 +8,7 @@ export default defineConfig({
     // Atenção: Isso permite acesso de qualquer host.
     // Use apenas para testes de desenvolvimento.
     allowedHosts:[
-      '64a79dbd244a.ngrok-free.app'
+      '366ce0483bd3.ngrok-free.app'
     ]
   }
 })

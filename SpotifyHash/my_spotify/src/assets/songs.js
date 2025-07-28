@@ -168,6 +168,62 @@ import Lionel1 from './songs/Lionel/lionel1.jpeg';
 import Lionel2 from './songs/Lionel/lionel2.jpeg';
 import Lionel3 from './songs/Lionel/lionel3.jpeg';
 import Lionel4 from './songs/Lionel/lionel4.jpeg';
+
+// Lana Del Rey
+import Lana1 from './songs/LanaDelRey/lana1.jpeg';
+import Lana2 from './songs/LanaDelRey/lana2.jpeg';
+import Lana3 from './songs/LanaDelRey/lana3.jpeg';
+import Lana4 from './songs/LanaDelRey/lana4.jpeg';
+import Lana5 from './songs/LanaDelRey/lana5.jpeg';
+import Lana6 from './songs/LanaDelRey/lana6.jpeg';
+import Lana7 from './songs/LanaDelRey/lana7.jpeg';
+import Lana8 from './songs/LanaDelRey/lana8.jpeg';
+import Lana9 from './songs/LanaDelRey/lana9.jpeg';
+import Lana10 from './songs/LanaDelRey/lana10.jpeg';
+
+// Katy Perry
+import Katy1 from './songs/KatyPerry/katy1.jpg';
+import Katy2 from './songs/KatyPerry/katy2.jpg';
+import Katy3 from './songs/KatyPerry/katy3.jpg';
+import Katy4 from './songs/KatyPerry/katy4.png';
+import Katy5 from './songs/KatyPerry/katy5.jpg';
+import Katy6 from './songs/KatyPerry/katy6.jpg';
+import Katy7 from './songs/KatyPerry/katy7.jpg';
+import Katy8 from './songs/KatyPerry/katy8.jpeg';
+import Katy9 from './songs/KatyPerry/katy9.jpeg';
+import Katy10 from './songs/KatyPerry/katy10.jpeg';
+
+// Justin Bieber
+import Justin1 from './songs/JustinBieber/justin1.jpg';
+import Justin2 from './songs/JustinBieber/justin2.jpeg';
+import Justin3 from './songs/JustinBieber/justin3.jpeg';
+import Justin4 from './songs/JustinBieber/justin4.jpeg';
+import Justin5 from './songs/JustinBieber/justin5.jpg';
+import Justin6 from './songs/JustinBieber/justin6.jpeg';
+import Justin7 from './songs/JustinBieber/justin7.jpeg';
+
+// Jorge e Mateus
+import JorgeMateus1 from './songs/JorgeMateus/img1.jpg';
+import JorgeMateus2 from './songs/JorgeMateus/img2.jpg';
+import JorgeMateus3 from './songs/JorgeMateus/img3.jpg';
+import JorgeMateus4 from './songs/JorgeMateus/img4.jpg';
+import JorgeMateus5 from './songs/JorgeMateus/img5.jpg';
+import JorgeMateus6 from './songs/JorgeMateus/img6.jpeg';
+import JorgeMateus7 from './songs/JorgeMateus/img7.jpg';
+import JorgeMateus8 from './songs/JorgeMateus/img8.jpeg';
+
+// J Bavin
+import jbavin1 from './songs/Jbavin/jbavin1.jpeg';
+import jbavin2 from './songs/Jbavin/jbavin2.jpg';
+import jbavin3 from './songs/Jbavin/jbavin3.jpeg';
+import jbavin4 from './songs/Jbavin/jbavin4.jpg';
+import jbavin5 from './songs/Jbavin/jbavin5.jpeg';
+import jbavin6 from './songs/Jbavin/jbavin6.jpeg';
+import jbavin7 from './songs/Jbavin/jbavin7.jpeg';
+import jbavin8 from './songs/Jbavin/jbavin8.jpg';
+import jbavin9 from './songs/Jbavin/jbavin9.jpeg';
+import jbavin10 from './songs/Jbavin/jbavin10.jpeg';
+
 // Songs 
 
 export const songsFromArtist = {
@@ -325,7 +381,7 @@ export const songsFromArtist = {
     { id: 127, title: "Man in the Mirror", artist: "Michael Jackson", duration: "5:19", img: Jackson3 },
     { id: 128, title: "The Way You Make Me Feel", artist: "Michael Jackson", duration: "4:58", img: Jackson3 },
     { id: 129, title: "Remember the Time", artist: "Michael Jackson", duration: "4:00", img: Jackson1 },
-    { id: 130, title: "Don't Stop 'Til You Get Enough", artist: "Michael Jackson", duration: "6:05", img: Jackson6 },
+    { id: 130, title: "Don't Stop 'Til You Get Enough", artist: "Michael Jackson", duration: "6:05", img: Jackson6 }
   ],
   14: [
     { id: 131, title: "Bohemian Rhapsody", artist: "Queen", duration: "5:55", img: queen1 },
@@ -337,7 +393,7 @@ export const songsFromArtist = {
     { id: 137, title: "We Are The Champions", artist: "Queen", duration: "3:01", img:  queen3 },
     { id: 138, title: "Under Pressure", artist: "Queen & David Bowie", duration: "4:08", img: queen5 },
     { id: 139, title: "Killer Queen", artist: "Queen", duration: "3:00", img:  queen1 },
-    { id: 140, title: "Radio Ga Ga", artist: "Queen", duration: "5:48", img: queen6},
+    { id: 140, title: "Radio Ga Ga", artist: "Queen", duration: "5:48", img: queen6}
   ],
   15: [
     { id: 151, title: "Não Se Reprima", artist: "Menudo", duration: "3:38", img: menudo1 },
@@ -349,7 +405,7 @@ export const songsFromArtist = {
     { id: 157, title: "Claridad", artist: "Menudo", duration: "3:50", img: menudo2},
     { id: 158, title: "Si Tú No Estás", artist: "Menudo", duration: "4:08", img: menudo3},
     { id: 159, title: "Chicle de Amor", artist: "Menudo", duration: "3:30", img:  menudo1 },
-    { id: 160, title: "Ella-a-a", artist: "Menudo", duration: "3:45", img: menudo4 },
+    { id: 160, title: "Ella-a-a", artist: "Menudo", duration: "3:45", img: menudo4 }
   ],
   16: [
     { id: 161, title: "Coração de Gelo", artist: "MC Cabelinho", duration: "3:02", img: cabelinho1 },
@@ -361,7 +417,7 @@ export const songsFromArtist = {
     { id: 167, title: "Modo Avião", artist: "MC Cabelinho", duration: "2:50", img: cabelinho3},
     { id: 168, title: "Aonde É o Baile", artist: "MC Cabelinho", duration: "2:48", img: cabelinho2},
     { id: 169, title: "Ela É do Tipo", artist: "MC Cabelinho", duration: "2:46", img: cabelinho1},
-    { id: 170, title: "Pepeka Braba", artist: "MC Cabelinho", duration: "2:55", img: cabelinho4},
+    { id: 170, title: "Pepeka Braba", artist: "MC Cabelinho", duration: "2:55", img: cabelinho4}
   ],
   17: [
     { id: 171, title: "Quer Voar", artist: "Matuê", duration: "3:13", img: matue1},
@@ -373,7 +429,7 @@ export const songsFromArtist = {
     { id: 177, title: "Flow Espacial", artist: "Matuê", duration: "2:59", img: matue7 },
     { id: 178, title: "A Morte do Autotune", artist: "Matuê", duration: "2:51", img: matue4 },
     { id: 179, title: "Bank", artist: "Matuê", duration: "2:42", img: matue3},
-    { id: 180, title: "Vampiro", artist: "Matuê, Teto, WIU", duration: "2:56", img:  matue8},
+    { id: 180, title: "Vampiro", artist: "Matuê, Teto, WIU", duration: "2:56", img:  matue8}
   ],
   18: [
     { id: 181, title: "Hello", artist: "Lionel Richie", duration: "4:08", img: Lionel1 },
@@ -385,67 +441,67 @@ export const songsFromArtist = {
     { id: 187, title: "Dancing on the Ceiling", artist: "Lionel Richie", duration: "4:21", img: Lionel3},
     { id: 188, title: "Truly", artist: "Lionel Richie", duration: "3:22", img: Lionel1 },
     { id: 189, title: "Penny Lover", artist: "Lionel Richie", duration: "3:46", img: Lionel4},
-    { id: 190, title: "You Are", artist: "Lionel Richie", duration: "4:03", img: Lionel1},
+    { id: 190, title: "You Are", artist: "Lionel Richie", duration: "4:03", img: Lionel1}
   ],
   19: [
-    { id: 191, title: "Summertime Sadness", artist: "Lana Del Rey", duration: "4:25" },
-    { id: 192, title: "Young and Beautiful", artist: "Lana Del Rey", duration: "3:56" },
-    { id: 193, title: "Born to Die", artist: "Lana Del Rey", duration: "4:46" },
-    { id: 194, title: "Video Games", artist: "Lana Del Rey", duration: "4:42" },
-    { id: 195, title: "West Coast", artist: "Lana Del Rey", duration: "4:16" },
-    { id: 196, title: "Doin' Time", artist: "Lana Del Rey", duration: "3:21" },
-    { id: 197, title: "Ride", artist: "Lana Del Rey", duration: "4:49" },
-    { id: 198, title: "Blue Jeans", artist: "Lana Del Rey", duration: "3:30" },
-    { id: 199, title: "Love", artist: "Lana Del Rey", duration: "4:33" },
-    { id: 200, title: "Lust for Life", artist: "Lana Del Rey ft. The Weeknd", duration: "4:24" },
+    { id: 191, title: "Summertime Sadness", artist: "Lana Del Rey", duration: "4:25", img: Lana1 },
+    { id: 192, title: "Young and Beautiful", artist: "Lana Del Rey", duration: "3:56", img: Lana2 },
+    { id: 193, title: "Born to Die", artist: "Lana Del Rey", duration: "4:46", img: Lana3 },
+    { id: 194, title: "Video Games", artist: "Lana Del Rey", duration: "4:42", img: Lana4 },
+    { id: 195, title: "West Coast", artist: "Lana Del Rey", duration: "4:16", img: Lana5 },
+    { id: 196, title: "Doin' Time", artist: "Lana Del Rey", duration: "3:21", img: Lana6 },
+    { id: 197, title: "Ride", artist: "Lana Del Rey", duration: "4:49", img: Lana7 },
+    { id: 198, title: "Blue Jeans", artist: "Lana Del Rey", duration: "3:30", img: Lana8 },
+    { id: 199, title: "Love", artist: "Lana Del Rey", duration: "4:33", img: Lana9 },
+    { id: 200, title: "Lust for Life", artist: "Lana Del Rey ft. The Weeknd", duration: "4:24", img: Lana10 }
   ],
   20: [
-    { id: 201, title: "Firework", artist: "Katy Perry", duration: "3:48" },
-    { id: 202, title: "Dark Horse", artist: "Katy Perry ft. Juicy J", duration: "3:35" },
-    { id: 203, title: "Roar", artist: "Katy Perry", duration: "3:43" },
-    { id: 204, title: "Teenage Dream", artist: "Katy Perry", duration: "3:48" },
-    { id: 205, title: "Last Friday Night", artist: "Katy Perry", duration: "3:50" },
-    { id: 206, title: "California Gurls", artist: "Katy Perry ft. Snoop Dogg", duration: "3:56" },
-    { id: 207, title: "E.T.", artist: "Katy Perry ft. Kanye West", duration: "3:26" },
-    { id: 208, title: "Hot N Cold", artist: "Katy Perry", duration: "3:40" },
-    { id: 209, title: "Part of Me", artist: "Katy Perry", duration: "3:35" },
-    { id: 210, title: "Wide Awake", artist: "Katy Perry", duration: "3:41" },
+    { id: 201, title: "Firework", artist: "Katy Perry", duration: "3:48", img: Katy1 },
+    { id: 202, title: "Dark Horse", artist: "Katy Perry ft. Juicy J", duration: "3:35", img: Katy2 },
+    { id: 203, title: "Roar", artist: "Katy Perry", duration: "3:43", img: Katy3 },
+    { id: 204, title: "Teenage Dream", artist: "Katy Perry", duration: "3:48", img: Katy4 },
+    { id: 205, title: "Last Friday Night", artist: "Katy Perry", duration: "3:50", img: Katy5 },
+    { id: 206, title: "California Gurls", artist: "Katy Perry ft. Snoop Dogg", duration: "3:56", img: Katy6 },
+    { id: 207, title: "E.T.", artist: "Katy Perry ft. Kanye West", duration: "3:26", img: Katy7 },
+    { id: 208, title: "Hot N Cold", artist: "Katy Perry", duration: "3:40", img: Katy8 },
+    { id: 209, title: "Part of Me", artist: "Katy Perry", duration: "3:35", img: Katy9 },
+    { id: 210, title: "Wide Awake", artist: "Katy Perry", duration: "3:41", img:  Katy10 }
   ],
   21: [
-    { id: 141, title: "Sorry", artist: "Justin Bieber", duration: "3:20" },
-    { id: 142, title: "Love Yourself", artist: "Justin Bieber", duration: "3:54" },
-    { id: 143, title: "Peaches", artist: "Justin Bieber", duration: "3:18" },
-    { id: 144, title: "Baby", artist: "Justin Bieber", duration: "3:36" },
-    { id: 145, title: "What Do You Mean?", artist: "Justin Bieber", duration: "3:25" },
-    { id: 146, title: "Where Are Ü Now", artist: "Justin Bieber & Jack Ü", duration: "4:10" },
-    { id: 147, title: "Yummy", artist: "Justin Bieber", duration: "3:30" },
-    { id: 148, title: "Intentions", artist: "Justin Bieber ft. Quavo", duration: "3:32" },
-    { id: 149, title: "Never Say Never", artist: "Justin Bieber", duration: "3:39" },
-    { id: 150, title: "One Time", artist: "Justin Bieber", duration: "3:31" },
+    { id: 141, title: "Sorry", artist: "Justin Bieber", duration: "3:20", img: Justin1 },
+    { id: 142, title: "Love Yourself", artist: "Justin Bieber", duration: "3:54", img: Justin1},
+    { id: 143, title: "Peaches", artist: "Justin Bieber", duration: "3:18", img:  Justin2},
+    { id: 144, title: "Baby", artist: "Justin Bieber", duration: "3:36", img:  Justin3},
+    { id: 145, title: "What Do You Mean?", artist: "Justin Bieber", duration: "3:25", img: Justin1 },
+    { id: 146, title: "Where Are Ü Now", artist: "Justin Bieber & Jack Ü", duration: "4:10", img: Justin4 },
+    { id: 147, title: "Yummy", artist: "Justin Bieber", duration: "3:30", img: Justin5 },
+    { id: 148, title: "Beauty and A Beat", artist: "Justin Bieber ft. Nicky Minaj", duration: "3:48", img: Justin6 },
+    { id: 149, title: "Never Say Never", artist: "Justin Bieber", duration: "3:39", img: Justin3},
+    { id: 150, title: "One Time", artist: "Justin Bieber", duration: "3:31", img: Justin7 }
   ],
   22: [
-    { id: 221, title: "Propaganda", artist: "Jorge & Mateus", duration: "3:30" },
-    { id: 222, title: "Tijolão", artist: "Jorge & Mateus", duration: "3:13" },
-    { id: 223, title: "Sosseguei", artist: "Jorge & Mateus", duration: "3:21" },
-    { id: 224, title: "Vou Voando", artist: "Jorge & Mateus", duration: "3:35" },
-    { id: 225, title: "Logo Eu", artist: "Jorge & Mateus", duration: "3:34" },
-    { id: 226, title: "Medida Certa", artist: "Jorge & Mateus", duration: "3:45" },
-    { id: 227, title: "Amo Noite e Dia", artist: "Jorge & Mateus", duration: "3:48" },
-    { id: 228, title: "Pra Sempre com Você", artist: "Jorge & Mateus", duration: "3:52" },
-    { id: 229, title: "Voa Beija-Flor", artist: "Jorge & Mateus", duration: "3:38" },
-    { id: 230, title: "Pode Chorar", artist: "Jorge & Mateus", duration: "3:29" },
+    { id: 221, title: "Propaganda", artist: "Jorge & Mateus", duration: "3:30", img: JorgeMateus1},
+    { id: 222, title: "Tijolão", artist: "Jorge & Mateus", duration: "3:13", img: JorgeMateus2},
+    { id: 223, title: "Sosseguei", artist: "Jorge & Mateus", duration: "3:21", img: JorgeMateus3},
+    { id: 224, title: "Vou Voando", artist: "Jorge & Mateus", duration: "3:35", img: JorgeMateus4},
+    { id: 225, title: "Logo Eu", artist: "Jorge & Mateus", duration: "3:34", img: JorgeMateus5},
+    { id: 226, title: "Medida Certa", artist: "Jorge & Mateus", duration: "3:45", img: JorgeMateus6},
+    { id: 227, title: "Amo Noite e Dia", artist: "Jorge & Mateus", duration: "3:48", img: JorgeMateus7},
+    { id: 228, title: "Pra Sempre com Você", artist: "Jorge & Mateus", duration: "3:52", img: JorgeMateus8},
+    { id: 229, title: "Voa Beija-Flor", artist: "Jorge & Mateus", duration: "3:38", img: JorgeMateus3},
+    { id: 230, title: "Pode Chorar", artist: "Jorge & Mateus", duration: "3:29", img: JorgeMateus8}
   ],
   23: [
-    { id: 231, title: "Mi Gente", artist: "J Balvin & Willy William", duration: "3:06" },
-    { id: 232, title: "Ginza", artist: "J Balvin", duration: "2:49" },
-    { id: 233, title: "Safari", artist: "J Balvin ft. Pharrell", duration: "3:27" },
-    { id: 234, title: "X", artist: "J Balvin & Nicky Jam", duration: "2:53" },
-    { id: 235, title: "Ay Vamos", artist: "J Balvin", duration: "3:28" },
-    { id: 236, title: "Reggaeton", artist: "J Balvin", duration: "2:47" },
-    { id: 237, title: "Ambiente", artist: "J Balvin", duration: "3:33" },
-    { id: 238, title: "6 AM", artist: "J Balvin ft. Farruko", duration: "3:45" },
-    { id: 239, title: "Tranquila", artist: "J Balvin", duration: "3:17" },
-    { id: 240, title: "Loco Contigo", artist: "DJ Snake ft. J Balvin & Tyga", duration: "3:06" },
+    { id: 231, title: "Mi Gente", artist: "J Balvin & Willy William", duration: "3:06", img: jbavin1 },
+    { id: 232, title: "Ginza", artist: "J Balvin", duration: "2:49", img: jbavin2 },
+    { id: 233, title: "Safari", artist: "J Balvin ft. Pharrell", duration: "3:27", img: jbavin3 },
+    { id: 234, title: "X", artist: "J Balvin & Nicky Jam", duration: "2:53", img: jbavin4 },
+    { id: 235, title: "Ay Vamos", artist: "J Balvin", duration: "3:28", img: jbavin5 },
+    { id: 236, title: "Reggaeton", artist: "J Balvin", duration: "2:47", img: jbavin6 },
+    { id: 237, title: "Ambiente", artist: "J Balvin", duration: "3:33", img: jbavin7 },
+    { id: 238, title: "6 AM", artist: "J Balvin ft. Farruko", duration: "3:45", img: jbavin8 },
+    { id: 239, title: "Tranquila", artist: "J Balvin", duration: "3:17", img: jbavin9 },
+    { id: 240, title: "Loco Contigo", artist: "DJ Snake ft. J Balvin & Tyga", duration: "3:06", img: jbavin10 }
   ],
   24: [
     { id: 241, title: "Dona de Mim", artist: "IZA", duration: "3:36" },
@@ -457,7 +513,7 @@ export const songsFromArtist = {
     { id: 247, title: "Sem Filtro", artist: "IZA", duration: "3:15" },
     { id: 248, title: "Gueto", artist: "IZA", duration: "3:03" },
     { id: 249, title: "Droga", artist: "IZA", duration: "3:42" },
-    { id: 250, title: "Esse Brilho é Meu", artist: "IZA", duration: "2:51" },
+    { id: 250, title: "Esse Brilho é Meu", artist: "IZA", duration: "2:51" }
   ],
   25: [
     { id: 251, title: "Believer", artist: "Imagine Dragons", duration: "3:24" },
