@@ -236,6 +236,15 @@ import ImagineDragons8 from './songs/ImagineDragons/Dragons8.jfif';
 import ImagineDragons9 from './songs/ImagineDragons/Dragons9.jfif';
 import ImagineDragons10 from './songs/ImagineDragons/Dragons10.jfif';
 
+// Harry Styles
+import HarryStyles1 from './songs/HarryStyles/harry1.jfif';
+import HarryStyles2 from './songs/HarryStyles/harry2.jfif';
+import HarryStyles3 from './songs/HarryStyles/harry3.jfif';
+import HarryStyles5 from './songs/HarryStyles/harry4.jfif';
+import HarryStyles7 from './songs/HarryStyles/harry5.jfif';
+import HarryStyles8 from './songs/HarryStyles/harry6.webp';
+
+
 
 // Songs 
 
@@ -541,16 +550,16 @@ export const songsFromArtist = {
     { id: 260, title: "Bad Liar", artist: "Imagine Dragons", duration: "4:20", img:  ImagineDragons10 },
   ],
   26: [
-    { id: 261, title: "As It Was", artist: "Harry Styles", duration: "2:47" },
-    { id: 262, title: "Watermelon Sugar", artist: "Harry Styles", duration: "2:54" },
-    { id: 263, title: "Sign of the Times", artist: "Harry Styles", duration: "5:41" },
-    { id: 264, title: "Falling", artist: "Harry Styles", duration: "4:00" },
-    { id: 265, title: "Late Night Talking", artist: "Harry Styles", duration: "2:57" },
-    { id: 266, title: "Adore You", artist: "Harry Styles", duration: "3:27" },
-    { id: 267, title: "Golden", artist: "Harry Styles", duration: "3:28" },
-    { id: 268, title: "Music for a Sushi Restaurant", artist: "Harry Styles", duration: "3:14" },
-    { id: 269, title: "Daylight", artist: "Harry Styles", duration: "2:44" },
-    { id: 270, title: "Matilda", artist: "Harry Styles", duration: "4:05" },
+    { id: 261, title: "As It Was", artist: "Harry Styles", duration: "2:47", img: HarryStyles1 },
+    { id: 262, title: "Watermelon Sugar", artist: "Harry Styles", duration: "2:54", img: HarryStyles2 },
+    { id: 263, title: "Sign of the Times", artist: "Harry Styles", duration: "5:41", img: HarryStyles3 },
+    { id: 264, title: "Falling", artist: "Harry Styles", duration: "4:00", img: HarryStyles3 },
+    { id: 265, title: "Late Night Talking", artist: "Harry Styles", duration: "2:57", img: HarryStyles5 },
+    { id: 266, title: "Adore You", artist: "Harry Styles", duration: "3:27", img: HarryStyles3 },
+    { id: 267, title: "Golden", artist: "Harry Styles", duration: "3:28", img: HarryStyles7 },
+    { id: 268, title: "Music for a Sushi Restaurant", artist: "Harry Styles", duration: "3:14", img: HarryStyles8 },
+    { id: 269, title: "Daylight", artist: "Harry Styles", duration: "2:44", img: HarryStyles1 },
+    { id: 270, title: "Matilda", artist: "Harry Styles", duration: "4:05", img: HarryStyles1 },
   ],
   27: [
     { id: 271, title: "Love Gostosinho", artist: "Nattan & Mari Fernandez", duration: "2:44" },
