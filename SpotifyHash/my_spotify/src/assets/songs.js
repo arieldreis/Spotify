@@ -224,6 +224,19 @@ import jbavin8 from './songs/Jbavin/jbavin8.jpg';
 import jbavin9 from './songs/Jbavin/jbavin9.jpeg';
 import jbavin10 from './songs/Jbavin/jbavin10.jpeg';
 
+// Imagine Dragons
+import ImagineDragons1 from './songs/ImagineDragons/Dragons1.jfif';
+import ImagineDragons2 from './songs/ImagineDragons/Dragons2.jfif';
+import ImagineDragons3 from './songs/ImagineDragons/Dragons3.jfif';
+import ImagineDragons4 from './songs/ImagineDragons/Dragons4.jfif';
+import ImagineDragons5 from './songs/ImagineDragons/Dragons5.jfif';
+import ImagineDragons6 from './songs/ImagineDragons/Dragons6.jfif';
+import ImagineDragons7 from './songs/ImagineDragons/Dragons7.jfif';
+import ImagineDragons8 from './songs/ImagineDragons/Dragons8.jfif';
+import ImagineDragons9 from './songs/ImagineDragons/Dragons9.jfif';
+import ImagineDragons10 from './songs/ImagineDragons/Dragons10.jfif';
+
+
 // Songs 
 
 export const songsFromArtist = {
@@ -516,16 +529,16 @@ export const songsFromArtist = {
     { id: 250, title: "Esse Brilho é Meu", artist: "IZA", duration: "2:51" }
   ],
   25: [
-    { id: 251, title: "Believer", artist: "Imagine Dragons", duration: "3:24" },
-    { id: 252, title: "Demons", artist: "Imagine Dragons", duration: "2:57" },
-    { id: 253, title: "Radioactive", artist: "Imagine Dragons", duration: "3:06" },
-    { id: 254, title: "Thunder", artist: "Imagine Dragons", duration: "3:07" },
-    { id: 255, title: "Whatever It Takes", artist: "Imagine Dragons", duration: "3:21" },
-    { id: 256, title: "Enemy", artist: "Imagine Dragons ft. JID", duration: "2:53" },
-    { id: 257, title: "Natural", artist: "Imagine Dragons", duration: "3:10" },
-    { id: 258, title: "On Top of the World", artist: "Imagine Dragons", duration: "3:12" },
-    { id: 259, title: "It's Time", artist: "Imagine Dragons", duration: "4:00" },
-    { id: 260, title: "Bad Liar", artist: "Imagine Dragons", duration: "4:20" },
+    { id: 251, title: "Believer", artist: "Imagine Dragons", duration: "3:24", img: ImagineDragons1 },
+    { id: 252, title: "Demons", artist: "Imagine Dragons", duration: "2:57", img: ImagineDragons2 },
+    { id: 253, title: "Radioactive", artist: "Imagine Dragons", duration: "3:06", img: ImagineDragons3 },
+    { id: 254, title: "Thunder", artist: "Imagine Dragons", duration: "3:07", img: ImagineDragons4 },
+    { id: 255, title: "Whatever It Takes", artist: "Imagine Dragons", duration: "3:21", img: ImagineDragons5 },
+    { id: 256, title: "Enemy", artist: "Imagine Dragons ft. JID", duration: "2:53", img: ImagineDragons6 },
+    { id: 257, title: "Natural", artist: "Imagine Dragons", duration: "3:10", img: ImagineDragons7 },
+    { id: 258, title: "On Top of the World", artist: "Imagine Dragons", duration: "3:12", img: ImagineDragons8 },
+    { id: 259, title: "It's Time", artist: "Imagine Dragons", duration: "4:00", img: ImagineDragons9},
+    { id: 260, title: "Bad Liar", artist: "Imagine Dragons", duration: "4:20", img:  ImagineDragons10 },
   ],
   26: [
     { id: 261, title: "As It Was", artist: "Harry Styles", duration: "2:47" },
