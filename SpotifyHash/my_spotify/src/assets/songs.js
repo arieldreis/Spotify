@@ -244,7 +244,15 @@ import HarryStyles5 from './songs/HarryStyles/harry4.jfif';
 import HarryStyles7 from './songs/HarryStyles/harry5.jfif';
 import HarryStyles8 from './songs/HarryStyles/harry6.webp';
 
-
+// Gustavo Lima
+import GustavoLima1 from './songs/GustavoLima/gustavo1.jfif';
+import GustavoLima2 from './songs/GustavoLima/gustavo2.jfif';
+import GustavoLima3 from './songs/GustavoLima/gustavo3.jfif';
+import GustavoLima4 from './songs/GustavoLima/gustavo4.jfif';
+import GustavoLima5 from './songs/GustavoLima/gustavo5.jfif';
+import GustavoLima6 from './songs/GustavoLima/gustavo6.jfif';
+import GustavoLima7 from './songs/GustavoLima/gustavo7.jfif';
+import GustavoLima8 from './songs/GustavoLima/gustavo8.jfif';
 
 // Songs 
 
@@ -574,16 +582,16 @@ export const songsFromArtist = {
     { id: 280, title: "Diz Aí", artist: "Nattan", duration: "2:40" },
   ],
   28: [
-    { id: 281, title: "Apelido Carinhoso", artist: "Gusttavo Lima", duration: "3:28" },
-    { id: 282, title: "Zé da Recaída", artist: "Gusttavo Lima", duration: "3:21" },
-    { id: 283, title: "Fala Mal de Mim", artist: "Gusttavo Lima", duration: "3:18" },
-    { id: 284, title: "Bloqueado", artist: "Gusttavo Lima", duration: "2:56" },
-    { id: 285, title: "Milu", artist: "Gusttavo Lima", duration: "3:12" },
-    { id: 286, title: "A Gente Fez Amor", artist: "Gusttavo Lima", duration: "3:10" },
-    { id: 287, title: "Balada (Tchê Tcherere Tchê Tchê)", artist: "Gusttavo Lima", duration: "3:23" },
-    { id: 288, title: "Termina Comigo Antes", artist: "Gusttavo Lima", duration: "3:07" },
-    { id: 289, title: "Desejo Imortal", artist: "Gusttavo Lima", duration: "3:33" },
-    { id: 290, title: "Homem de Família", artist: "Gusttavo Lima", duration: "3:15" },
+    { id: 281, title: "Apelido Carinhoso", artist: "Gusttavo Lima", duration: "3:28", img: GustavoLima2 },
+    { id: 282, title: "Zé da Recaída", artist: "Gusttavo Lima", duration: "3:21", img: GustavoLima3 },
+    { id: 283, title: "Fala Mal de Mim", artist: "Gusttavo Lima", duration: "3:18", img: GustavoLima4 },
+    { id: 284, title: "Bloqueado", artist: "Gusttavo Lima", duration: "2:56", img: GustavoLima5 },
+    { id: 285, title: "Milu", artist: "Gusttavo Lima", duration: "3:12", img: GustavoLima8 },
+    { id: 286, title: "A Gente Fez Amor", artist: "Gusttavo Lima", duration: "3:10", img: GustavoLima1 },
+    { id: 287, title: "Balada (Tchê Tcherere Tchê Tchê)", artist: "Gusttavo Lima", duration: "3:23", img: GustavoLima6},
+    { id: 288, title: "Termina Comigo Antes", artist: "Gusttavo Lima", duration: "3:07", img: GustavoLima6 },
+    { id: 289, title: "Desejo Imortal", artist: "Gusttavo Lima", duration: "3:33", img: GustavoLima7},
+    { id: 290, title: "Homem de Família", artist: "Gusttavo Lima", duration: "3:15", img: GustavoLima3},
   ],
   29: [
     { id: 291, title: "Uptown Funk", artist: "Mark Ronson ft. Bruno Mars", duration: "4:30" },
