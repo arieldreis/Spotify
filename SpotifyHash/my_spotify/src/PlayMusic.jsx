@@ -1,11 +1,10 @@
-import React, { useState } from 'react'
+import React, { useState, useRef, useEffect } from 'react'
 import imgTeste from './assets/songs/PostMalone/iHadSomeHelp.jpeg';
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCirclePlay, faBackwardStep, faForwardStep, faCirclePause, faArrowRotateLeft, faArrowRotateRight } from '@fortawesome/free-solid-svg-icons';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import songTeste from './assets/songs/PostMalone/audio/Post Malone - I Had Some Help (feat. Morgan Wallen) (Official Video).mp3';
-import { useRef, useEffect } from 'react';
+import { songsFromArtist } from './assets/songs.js';
 
 const PlayMusic = () => {
   const audioPlayer = useRef(null);
@@ -22,6 +21,12 @@ const PlayMusic = () => {
     return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
   }
   useEffect(() => {});
+  const { id } = useParams();
+  const idNumber = Number(id);
+  console.log(id);
+  // Importando o arquivo com ás músicas dos artistas.
+  const musicasId = songsFromArtist[idNumber]
+  console.log(musicasId);
   return (
     <>
       <div className='main'>

@@ -224,6 +224,36 @@ import jbavin8 from './songs/Jbavin/jbavin8.jpg';
 import jbavin9 from './songs/Jbavin/jbavin9.jpeg';
 import jbavin10 from './songs/Jbavin/jbavin10.jpeg';
 
+// Imagine Dragons
+import ImagineDragons1 from './songs/ImagineDragons/Dragons1.jfif';
+import ImagineDragons2 from './songs/ImagineDragons/Dragons2.jfif';
+import ImagineDragons3 from './songs/ImagineDragons/Dragons3.jfif';
+import ImagineDragons4 from './songs/ImagineDragons/Dragons4.jfif';
+import ImagineDragons5 from './songs/ImagineDragons/Dragons5.jfif';
+import ImagineDragons6 from './songs/ImagineDragons/Dragons6.jfif';
+import ImagineDragons7 from './songs/ImagineDragons/Dragons7.jfif';
+import ImagineDragons8 from './songs/ImagineDragons/Dragons8.jfif';
+import ImagineDragons9 from './songs/ImagineDragons/Dragons9.jfif';
+import ImagineDragons10 from './songs/ImagineDragons/Dragons10.jfif';
+
+// Harry Styles
+import HarryStyles1 from './songs/HarryStyles/harry1.jfif';
+import HarryStyles2 from './songs/HarryStyles/harry2.jfif';
+import HarryStyles3 from './songs/HarryStyles/harry3.jfif';
+import HarryStyles5 from './songs/HarryStyles/harry4.jfif';
+import HarryStyles7 from './songs/HarryStyles/harry5.jfif';
+import HarryStyles8 from './songs/HarryStyles/harry6.webp';
+
+// Gustavo Lima
+import GustavoLima1 from './songs/GustavoLima/gustavo1.jfif';
+import GustavoLima2 from './songs/GustavoLima/gustavo2.jfif';
+import GustavoLima3 from './songs/GustavoLima/gustavo3.jfif';
+import GustavoLima4 from './songs/GustavoLima/gustavo4.jfif';
+import GustavoLima5 from './songs/GustavoLima/gustavo5.jfif';
+import GustavoLima6 from './songs/GustavoLima/gustavo6.jfif';
+import GustavoLima7 from './songs/GustavoLima/gustavo7.jfif';
+import GustavoLima8 from './songs/GustavoLima/gustavo8.jfif';
+
 // Songs 
 
 export const songsFromArtist = {
@@ -516,28 +546,28 @@ export const songsFromArtist = {
     { id: 250, title: "Esse Brilho é Meu", artist: "IZA", duration: "2:51" }
   ],
   25: [
-    { id: 251, title: "Believer", artist: "Imagine Dragons", duration: "3:24" },
-    { id: 252, title: "Demons", artist: "Imagine Dragons", duration: "2:57" },
-    { id: 253, title: "Radioactive", artist: "Imagine Dragons", duration: "3:06" },
-    { id: 254, title: "Thunder", artist: "Imagine Dragons", duration: "3:07" },
-    { id: 255, title: "Whatever It Takes", artist: "Imagine Dragons", duration: "3:21" },
-    { id: 256, title: "Enemy", artist: "Imagine Dragons ft. JID", duration: "2:53" },
-    { id: 257, title: "Natural", artist: "Imagine Dragons", duration: "3:10" },
-    { id: 258, title: "On Top of the World", artist: "Imagine Dragons", duration: "3:12" },
-    { id: 259, title: "It's Time", artist: "Imagine Dragons", duration: "4:00" },
-    { id: 260, title: "Bad Liar", artist: "Imagine Dragons", duration: "4:20" },
+    { id: 251, title: "Believer", artist: "Imagine Dragons", duration: "3:24", img: ImagineDragons1 },
+    { id: 252, title: "Demons", artist: "Imagine Dragons", duration: "2:57", img: ImagineDragons2 },
+    { id: 253, title: "Radioactive", artist: "Imagine Dragons", duration: "3:06", img: ImagineDragons3 },
+    { id: 254, title: "Thunder", artist: "Imagine Dragons", duration: "3:07", img: ImagineDragons4 },
+    { id: 255, title: "Whatever It Takes", artist: "Imagine Dragons", duration: "3:21", img: ImagineDragons5 },
+    { id: 256, title: "Enemy", artist: "Imagine Dragons ft. JID", duration: "2:53", img: ImagineDragons6 },
+    { id: 257, title: "Natural", artist: "Imagine Dragons", duration: "3:10", img: ImagineDragons7 },
+    { id: 258, title: "On Top of the World", artist: "Imagine Dragons", duration: "3:12", img: ImagineDragons8 },
+    { id: 259, title: "It's Time", artist: "Imagine Dragons", duration: "4:00", img: ImagineDragons9},
+    { id: 260, title: "Bad Liar", artist: "Imagine Dragons", duration: "4:20", img:  ImagineDragons10 },
   ],
   26: [
-    { id: 261, title: "As It Was", artist: "Harry Styles", duration: "2:47" },
-    { id: 262, title: "Watermelon Sugar", artist: "Harry Styles", duration: "2:54" },
-    { id: 263, title: "Sign of the Times", artist: "Harry Styles", duration: "5:41" },
-    { id: 264, title: "Falling", artist: "Harry Styles", duration: "4:00" },
-    { id: 265, title: "Late Night Talking", artist: "Harry Styles", duration: "2:57" },
-    { id: 266, title: "Adore You", artist: "Harry Styles", duration: "3:27" },
-    { id: 267, title: "Golden", artist: "Harry Styles", duration: "3:28" },
-    { id: 268, title: "Music for a Sushi Restaurant", artist: "Harry Styles", duration: "3:14" },
-    { id: 269, title: "Daylight", artist: "Harry Styles", duration: "2:44" },
-    { id: 270, title: "Matilda", artist: "Harry Styles", duration: "4:05" },
+    { id: 261, title: "As It Was", artist: "Harry Styles", duration: "2:47", img: HarryStyles1 },
+    { id: 262, title: "Watermelon Sugar", artist: "Harry Styles", duration: "2:54", img: HarryStyles2 },
+    { id: 263, title: "Sign of the Times", artist: "Harry Styles", duration: "5:41", img: HarryStyles3 },
+    { id: 264, title: "Falling", artist: "Harry Styles", duration: "4:00", img: HarryStyles3 },
+    { id: 265, title: "Late Night Talking", artist: "Harry Styles", duration: "2:57", img: HarryStyles5 },
+    { id: 266, title: "Adore You", artist: "Harry Styles", duration: "3:27", img: HarryStyles3 },
+    { id: 267, title: "Golden", artist: "Harry Styles", duration: "3:28", img: HarryStyles7 },
+    { id: 268, title: "Music for a Sushi Restaurant", artist: "Harry Styles", duration: "3:14", img: HarryStyles8 },
+    { id: 269, title: "Daylight", artist: "Harry Styles", duration: "2:44", img: HarryStyles1 },
+    { id: 270, title: "Matilda", artist: "Harry Styles", duration: "4:05", img: HarryStyles1 },
   ],
   27: [
     { id: 271, title: "Love Gostosinho", artist: "Nattan & Mari Fernandez", duration: "2:44" },
@@ -552,16 +582,16 @@ export const songsFromArtist = {
     { id: 280, title: "Diz Aí", artist: "Nattan", duration: "2:40" },
   ],
   28: [
-    { id: 281, title: "Apelido Carinhoso", artist: "Gusttavo Lima", duration: "3:28" },
-    { id: 282, title: "Zé da Recaída", artist: "Gusttavo Lima", duration: "3:21" },
-    { id: 283, title: "Fala Mal de Mim", artist: "Gusttavo Lima", duration: "3:18" },
-    { id: 284, title: "Bloqueado", artist: "Gusttavo Lima", duration: "2:56" },
-    { id: 285, title: "Milu", artist: "Gusttavo Lima", duration: "3:12" },
-    { id: 286, title: "A Gente Fez Amor", artist: "Gusttavo Lima", duration: "3:10" },
-    { id: 287, title: "Balada (Tchê Tcherere Tchê Tchê)", artist: "Gusttavo Lima", duration: "3:23" },
-    { id: 288, title: "Termina Comigo Antes", artist: "Gusttavo Lima", duration: "3:07" },
-    { id: 289, title: "Desejo Imortal", artist: "Gusttavo Lima", duration: "3:33" },
-    { id: 290, title: "Homem de Família", artist: "Gusttavo Lima", duration: "3:15" },
+    { id: 281, title: "Apelido Carinhoso", artist: "Gusttavo Lima", duration: "3:28", img: GustavoLima2 },
+    { id: 282, title: "Zé da Recaída", artist: "Gusttavo Lima", duration: "3:21", img: GustavoLima3 },
+    { id: 283, title: "Fala Mal de Mim", artist: "Gusttavo Lima", duration: "3:18", img: GustavoLima4 },
+    { id: 284, title: "Bloqueado", artist: "Gusttavo Lima", duration: "2:56", img: GustavoLima5 },
+    { id: 285, title: "Milu", artist: "Gusttavo Lima", duration: "3:12", img: GustavoLima8 },
+    { id: 286, title: "A Gente Fez Amor", artist: "Gusttavo Lima", duration: "3:10", img: GustavoLima1 },
+    { id: 287, title: "Balada (Tchê Tcherere Tchê Tchê)", artist: "Gusttavo Lima", duration: "3:23", img: GustavoLima6},
+    { id: 288, title: "Termina Comigo Antes", artist: "Gusttavo Lima", duration: "3:07", img: GustavoLima6 },
+    { id: 289, title: "Desejo Imortal", artist: "Gusttavo Lima", duration: "3:33", img: GustavoLima7},
+    { id: 290, title: "Homem de Família", artist: "Gusttavo Lima", duration: "3:15", img: GustavoLima3},
   ],
   29: [
     { id: 291, title: "Uptown Funk", artist: "Mark Ronson ft. Bruno Mars", duration: "4:30" },
