@@ -70,7 +70,7 @@ import SeanPaul6 from './songs/SeanPaul/likeGlue.jpeg';
 import SeanPaul7 from './songs/SeanPaul/rockybye.jpeg';
 
 // Romeo Santos
-import RomeoSantos1 from './songs/RomeoSantos/propuesta.jpeg';
+import RomeoSantos1 from './songs/RomeoSantos/Propuesta.jpeg';
 import RomeoSantos2 from './songs/RomeoSantos/Imitadora.jpg';
 import RomeoSantos3 from './songs/RomeoSantos/Bella_y_Sensual.jpg';
 import RomeoSantos4 from './songs/RomeoSantos/Cancioncitas_Amor.jpg';
