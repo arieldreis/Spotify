@@ -103,7 +103,7 @@ import OneRepublic3 from './songs/OneRepublic/secrets.jpeg';
 import OneRepublic4 from './songs/OneRepublic/lovesRunOut.jpeg';
 import OneRepublic5 from './songs/OneRepublic/loseMyself.jpeg';
 import OneRepublic6 from './songs/OneRepublic/run.jpeg';
-import OneRepublic7 from './songs/OneRepublic/sunshine.jpeg';
+import OneRepublic7 from './songs/OneRepublic/Sunshine.jpeg';
 
 // One Direction
 import OneDirection1 from './songs/OneDirection/WhatMakeBeauty.jpeg';
