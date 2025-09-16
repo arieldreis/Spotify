@@ -164,7 +164,7 @@ import matue7 from './songs/matue/matue7.jpeg';
 import matue8 from './songs/matue/matue8.jpeg';
 
 // Lionel Richie
-import Lionel1 from './songs/Lionel/lionel1.jpeg';
+import Lionel1 from './songs/Lionel/Lionel1.jpeg';
 import Lionel2 from './songs/Lionel/lionel2.jpeg';
 import Lionel3 from './songs/Lionel/lionel3.jpeg';
 import Lionel4 from './songs/Lionel/lionel4.jpeg';
