@@ -62,7 +62,7 @@ const PlayMusic = () => {
             <p>{song.title}</p>
             <p>{song.artist}</p>
           </div>
-          <audio src={song.audio} ref={audioPlayer} controls style={{display: 'none'}} onLoadedMetadata={() => setDuration(audioPlayer.current.duration)} onTimeUpdate={() => setCurrentTime(audioPlayer.current.currentTime)}></audio>
+          <audio src={song.audio} ref={audioPlayer} controls loop style={{display: 'none'}} onLoadedMetadata={() => setDuration(audioPlayer.current.duration)} onTimeUpdate={() => setCurrentTime(audioPlayer.current.currentTime)}></audio>
       </div>
     </>
   )
