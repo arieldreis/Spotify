@@ -17,6 +17,13 @@ import theWekend5 from './songs/TheWeekend/saveyourTears.png';
 import theWekend6 from './songs/TheWeekend/outOfTime.jpg';
 import theWekend7 from './songs/TheWeekend/IfeelItComing.jpg';
 
+import audio1 from './songs/TheWeekend/audios/Save_Your_Tears.mp3';
+import audio2 from './songs/TheWeekend/audios/starboy.mp3';
+import audio3 from './songs/TheWeekend/audios/the_hills.wma';
+import audio4 from './songs/TheWeekend/audios/Weekend_Cant_Feel_My_Face_Half_Down.mp3';
+import audio5 from './songs/TheWeekend/audios/eranedIt.mp3';
+import audio6 from './songs/TheWeekend/audios/i_feel_it_coming.mp3';
+
 // Travis Scott
 import SickoMode from './songs/TravisScoot/TravisScoot.webp';
 import goosebumps from './songs/TravisScoot/Goosepumps.jpg';
@@ -254,18 +261,50 @@ import GustavoLima6 from './songs/GustavoLima/gustavo6.jfif';
 import GustavoLima7 from './songs/GustavoLima/gustavo7.jfif';
 import GustavoLima8 from './songs/GustavoLima/gustavo8.jfif';
 
+// Iza
+import Iza1 from './songs/Iza/dona_de_mim.jpg';
+import Iza2 from './songs/Iza/meu_talisma.jpg';
+import Iza3 from './songs/Iza/Capa_de_Pesadão.png';
+import Iza4 from './songs/Iza/brisa.png';
+import Iza5 from './songs/Iza/ginga.jpg';
+import Iza6 from './songs/Iza/fae_nas_malucas.jpg';
+import Iza7 from './songs/Iza/sem_filtro.png';
+import Iza8 from './songs/Iza/gueto.png';
+import Iza9 from './songs/Iza/droga.webp';
+import Iza10 from './songs/Iza/esse_brilho_meu.jpg';
+
+// Nathazinho
+import Nathazinho1 from './songs/nathanzinho/nathanzinho1.webp';
+import Nathazinho2 from './songs/nathanzinho/nathanzinho2.jpg';
+import Nathazinho3 from './songs/nathanzinho/nathanzinho3.jpg';
+import Nathazinho4 from './songs/nathanzinho/nathanzinho4.jpeg';
+import Nathazinho5 from './songs/nathanzinho/nathanzinho5.jpeg';
+import Nathazinho6 from './songs/nathanzinho/nathanzinho6.jpg';
+import Nathazinho7 from './songs/nathanzinho/nathanzinho7.jpg';
+
+// Bruno Mars
+import BrunoMars1 from './songs/brunomars/brunomars1.jpeg';
+import BrunoMars2 from './songs/brunomars/brunomars2.jpeg';
+import BrunoMars3 from './songs/brunomars/brunomars3.jpg';
+import BrunoMars4 from './songs/brunomars/brunomars4.jpeg';
+import BrunoMars5 from './songs/brunomars/brunomars5.jpg';
+import BrunoMars6 from './songs/brunomars/brunomars6.jpeg';
+
+// ABBA
+
+
 // Songs 
 
 export const songsFromArtist = {
   1: [
     { id: 1, title: "Blinding Lights", artist: "The Weeknd", duration: "3:20", img: theWekend1},
-    { id: 2, title: "Save Your Tears", artist: "The Weeknd", duration: "3:35", img: theWekend5},
-    { id: 3, title: "Starboy", artist: "The Weeknd", duration: "3:50", img: theWekend4},
-    { id: 4, title: "The Hills", artist: "The Weeknd", duration: "4:02", img: theWekend2},
-    { id: 5, title: "Can't Feel My Face", artist: "The Weeknd", duration: "3:35", img: theWekend2},
-    { id: 6, title: "Earned It", artist: "The Weeknd", duration: "4:10", img: theWekend2},
+    { id: 2, title: "Save Your Tears", artist: "The Weeknd", duration: "3:35", img: theWekend5, audio: audio1},
+    { id: 3, title: "Starboy", artist: "The Weeknd", duration: "3:50", img: theWekend4, audio: audio2 },
+    { id: 4, title: "The Hills", artist: "The Weeknd", duration: "4:02", img: theWekend2, audio: audio3 },
+    { id: 5, title: "Can't Feel My Face", artist: "The Weeknd", duration: "3:35", img: theWekend2, audio: audio4},
+    { id: 6, title: "Earned It", artist: "The Weeknd", duration: "4:10", img: theWekend2, audio: audio5},
     { id: 7, title: "In Your Eyes", artist: "The Weeknd", duration: "3:58", img: theWekend1},
-    { id: 8, title: "I Feel It Coming", artist: "The Weeknd", duration: "4:29", img: theWekend7},
+    { id: 8, title: "I Feel It Coming", artist: "The Weeknd", duration: "4:29", img: theWekend7, audio: audio6 },
     { id: 9, title: "Out of Time", artist: "The Weeknd", duration: "3:34", img: theWekend6},
     { id: 10, title: "Take My Breath", artist: "The Weeknd", duration: "3:40", img: theWekend3}
   ],
@@ -534,16 +573,16 @@ export const songsFromArtist = {
     { id: 240, title: "Loco Contigo", artist: "DJ Snake ft. J Balvin & Tyga", duration: "3:06", img: jbavin10 }
   ],
   24: [
-    { id: 241, title: "Dona de Mim", artist: "IZA", duration: "3:36" },
-    { id: 242, title: "Meu Talismã", artist: "IZA", duration: "3:38" },
-    { id: 243, title: "Pesadão", artist: "IZA ft. Marcelo Falcão", duration: "3:07" },
-    { id: 244, title: "Brisa", artist: "IZA", duration: "3:10" },
-    { id: 245, title: "Ginga", artist: "IZA ft. Rincon Sapiência", duration: "3:26" },
-    { id: 246, title: "Fé nas Malucas", artist: "IZA ft. MC Carol", duration: "2:59" },
-    { id: 247, title: "Sem Filtro", artist: "IZA", duration: "3:15" },
-    { id: 248, title: "Gueto", artist: "IZA", duration: "3:03" },
-    { id: 249, title: "Droga", artist: "IZA", duration: "3:42" },
-    { id: 250, title: "Esse Brilho é Meu", artist: "IZA", duration: "2:51" }
+    { id: 241, title: "Dona de Mim", artist: "IZA", duration: "3:36", img: Iza1 },
+    { id: 242, title: "Meu Talismã", artist: "IZA", duration: "3:38", img: Iza2},
+    { id: 243, title: "Pesadão", artist: "IZA ft. Marcelo Falcão", duration: "3:07", img: Iza3 },
+    { id: 244, title: "Brisa", artist: "IZA", duration: "3:10", img: Iza4 },
+    { id: 245, title: "Ginga", artist: "IZA ft. Rincon Sapiência", duration: "3:26", img: Iza5 },
+    { id: 246, title: "Fé nas Malucas", artist: "IZA ft. MC Carol", duration: "2:59", img: Iza6 },
+    { id: 247, title: "Sem Filtro", artist: "IZA", duration: "3:15", img: Iza7 },
+    { id: 248, title: "Gueto", artist: "IZA", duration: "3:03", img: Iza8 },
+    { id: 249, title: "Droga", artist: "IZA", duration: "3:42", img: Iza9 },
+    { id: 250, title: "Esse Brilho é Meu", artist: "IZA", duration: "2:51", img: Iza10 }
   ],
   25: [
     { id: 251, title: "Believer", artist: "Imagine Dragons", duration: "3:24", img: ImagineDragons1 },
@@ -570,16 +609,16 @@ export const songsFromArtist = {
     { id: 270, title: "Matilda", artist: "Harry Styles", duration: "4:05", img: HarryStyles1 },
   ],
   27: [
-    { id: 271, title: "Love Gostosinho", artist: "Nattan & Mari Fernandez", duration: "2:44" },
-    { id: 272, title: "Tem Cabaré Essa Noite", artist: "Nattan & Nivaldo Marques", duration: "2:50" },
-    { id: 273, title: "Storiezin", artist: "Nattan", duration: "2:58" },
-    { id: 274, title: "Comunicação Falhou", artist: "Nattan", duration: "3:10" },
-    { id: 275, title: "Não te Quero", artist: "Nattan", duration: "2:45" },
-    { id: 276, title: "Manda Áudio", artist: "Nattan", duration: "2:49" },
-    { id: 277, title: "Se For Amor", artist: "Nattan", duration: "2:54" },
-    { id: 278, title: "Te Amar foi Ilusão", artist: "Nattan", duration: "3:00" },
-    { id: 279, title: "Diferente das Diferentes", artist: "Nattan", duration: "3:03" },
-    { id: 280, title: "Diz Aí", artist: "Nattan", duration: "2:40" },
+    { id: 271, title: "Love Gostosinho", artist: "Nattan & Mari Fernandez", duration: "2:44", img: Nathazinho1 },
+    { id: 272, title: "Tem Cabaré Essa Noite", artist: "Nattan & Nivaldo Marques", duration: "2:50", img: Nathazinho2 },
+    { id: 273, title: "Storiezin", artist: "Nattan", duration: "2:58", img: Nathazinho3 },
+    { id: 274, title: "Comunicação Falhou", artist: "Nattan", duration: "3:10", img: Nathazinho4 },
+    { id: 275, title: "Não te Quero", artist: "Nattan", duration: "2:45", img: Nathazinho5 },
+    { id: 276, title: "Manda Áudio", artist: "Nattan", duration: "2:49", img: Nathazinho6 },
+    { id: 277, title: "Se For Amor", artist: "Nattan", duration: "2:54", img: Nathazinho7 },
+    { id: 278, title: "Te Amar foi Ilusão", artist: "Nattan", duration: "3:00", img: Nathazinho3 },
+    { id: 279, title: "Diferente das Diferentes", artist: "Nattan", duration: "3:03", img: Nathazinho7 },
+    { id: 280, title: "Diz Aí", artist: "Nattan", duration: "2:40", img: Nathazinho3 },
   ],
   28: [
     { id: 281, title: "Apelido Carinhoso", artist: "Gusttavo Lima", duration: "3:28", img: GustavoLima2 },
@@ -594,16 +633,16 @@ export const songsFromArtist = {
     { id: 290, title: "Homem de Família", artist: "Gusttavo Lima", duration: "3:15", img: GustavoLima3},
   ],
   29: [
-    { id: 291, title: "Uptown Funk", artist: "Mark Ronson ft. Bruno Mars", duration: "4:30" },
-    { id: 292, title: "That's What I Like", artist: "Bruno Mars", duration: "3:26" },
-    { id: 293, title: "Just the Way You Are", artist: "Bruno Mars", duration: "3:41" },
-    { id: 294, title: "Locked Out of Heaven", artist: "Bruno Mars", duration: "3:53" },
-    { id: 295, title: "Treasure", artist: "Bruno Mars", duration: "2:58" },
-    { id: 296, title: "24K Magic", artist: "Bruno Mars", duration: "3:45" },
-    { id: 297, title: "Grenade", artist: "Bruno Mars", duration: "3:42" },
-    { id: 298, title: "Finesse", artist: "Bruno Mars ft. Cardi B", duration: "3:11" },
-    { id: 299, title: "When I Was Your Man", artist: "Bruno Mars", duration: "3:33" },
-    { id: 300, title: "Leave The Door Open", artist: "Silk Sonic (Bruno Mars & Anderson .Paak)", duration: "4:02" },
+    { id: 291, title: "Uptown Funk", artist: "Mark Ronson ft. Bruno Mars", duration: "4:30", img: BrunoMars1},
+    { id: 292, title: "That's What I Like", artist: "Bruno Mars", duration: "3:26", img: BrunoMars2},
+    { id: 293, title: "Just the Way You Are", artist: "Bruno Mars", duration: "3:41", img: BrunoMars3},
+    { id: 294, title: "Locked Out of Heaven", artist: "Bruno Mars", duration: "3:53", img: BrunoMars4},
+    { id: 295, title: "Treasure", artist: "Bruno Mars", duration: "2:58", img: BrunoMars4},
+    { id: 296, title: "24K Magic", artist: "Bruno Mars", duration: "3:45", img: BrunoMars2},
+    { id: 297, title: "Grenade", artist: "Bruno Mars", duration: "3:42", img: BrunoMars2},
+    { id: 298, title: "Finesse", artist: "Bruno Mars ft. Cardi B", duration: "3:11", img: BrunoMars5},
+    { id: 299, title: "When I Was Your Man", artist: "Bruno Mars", duration: "3:33", img: BrunoMars4},
+    { id: 300, title: "Leave The Door Open", artist: "Silk Sonic (Bruno Mars & Anderson .Paak)", duration: "4:02", img: BrunoMars6},
   ],
   30: [
     { id: 301, title: "In Da Club", artist: "50 Cent", duration: "3:13", img: fiftyCent },

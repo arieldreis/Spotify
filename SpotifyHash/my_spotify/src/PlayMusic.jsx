@@ -23,21 +23,21 @@ const PlayMusic = () => {
   useEffect(() => {});
   const { id } = useParams();
   const idNumber = Number(id);
-  console.log(id);
-  // Importando o arquivo com ás músicas dos artistas.
-  const musicasId = songsFromArtist[idNumber]
-  console.log(musicasId);
+
+  const song = songsFromArtist[1].find((s) => s.id === idNumber);
+  console.log(song);
+
   return (
     <>
       <div className='main'>
         <div className='ImgCenter'>
-          <img src={imgTeste} alt="Imagem do Artista" />
+          <img src={song.img} alt="Imagem do Artista" />
         </div>
       </div>
       <div className='Player'>
           <div className="PlayerImg">
             <Link to='/'>
-              <img src={imgTeste} alt="Imagem do Artista" />
+              <img src={song.img} alt="Imagem do Artista" />
             </Link>
           </div>
           <div className="ContainerColuna">
@@ -62,10 +62,10 @@ const PlayMusic = () => {
             </div>
           </div>
           <div className="informacoes">
-            <p>I Had Some Help</p>
-            <p>Post Malone</p>
+            <p>{song.title}</p>
+            <p>{song.artist}</p>
           </div>
-          <audio src={songTeste} ref={audioPlayer} controls style={{display: 'none'}} onLoadedMetadata={() => setDuration(audioPlayer.current.duration)} onTimeUpdate={() => setCurrentTime(audioPlayer.current.currentTime)}></audio>
+          <audio src={song.audio} ref={audioPlayer} controls style={{display: 'none'}} onLoadedMetadata={() => setDuration(audioPlayer.current.duration)} onTimeUpdate={() => setCurrentTime(audioPlayer.current.currentTime)}></audio>
       </div>
     </>
   )
