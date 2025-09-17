@@ -1,9 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react'
-import imgTeste from './assets/songs/PostMalone/iHadSomeHelp.jpeg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCirclePlay, faBackwardStep, faForwardStep, faCirclePause, faArrowRotateLeft, faArrowRotateRight } from '@fortawesome/free-solid-svg-icons';
 import { Link, useParams } from 'react-router-dom';
-import songTeste from './assets/songs/PostMalone/audio/Post Malone - I Had Some Help (feat. Morgan Wallen) (Official Video).mp3';
 import { songsFromArtist } from './assets/songs.js';
 
 const PlayMusic = () => {
@@ -25,7 +23,6 @@ const PlayMusic = () => {
   const idNumber = Number(id);
 
   const song = songsFromArtist[1].find((s) => s.id === idNumber);
-  console.log(song);
 
   return (
     <>

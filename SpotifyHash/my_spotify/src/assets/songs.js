@@ -19,10 +19,14 @@ import theWekend7 from './songs/TheWeekend/IfeelItComing.jpg';
 
 import audio1 from './songs/TheWeekend/audios/Save_Your_Tears.mp3';
 import audio2 from './songs/TheWeekend/audios/starboy.mp3';
-import audio3 from './songs/TheWeekend/audios/the_hills.wma';
+import audio3 from './songs/TheWeekend/audios/the_hills.mp3';
 import audio4 from './songs/TheWeekend/audios/Weekend_Cant_Feel_My_Face_Half_Down.mp3';
 import audio5 from './songs/TheWeekend/audios/eranedIt.mp3';
 import audio6 from './songs/TheWeekend/audios/i_feel_it_coming.mp3';
+import audio7 from './songs/TheWeekend/audios/Blinding_Lights.mp3';
+import audio8 from './songs/TheWeekend/audios/out_of_time.mp3';
+import audio9 from './songs/TheWeekend/audios/in_your_eyes.mp3';
+import audio10 from './songs/TheWeekend/audios/take_my_breath.mp3';
 
 // Travis Scott
 import SickoMode from './songs/TravisScoot/TravisScoot.webp';
@@ -262,16 +266,16 @@ import GustavoLima7 from './songs/GustavoLima/gustavo7.jfif';
 import GustavoLima8 from './songs/GustavoLima/gustavo8.jfif';
 
 // Iza
-import Iza1 from './songs/Iza/dona_de_mim.jpg';
-import Iza2 from './songs/Iza/meu_talisma.jpg';
-import Iza3 from './songs/Iza/Capa_de_Pesadão.png';
-import Iza4 from './songs/Iza/brisa.png';
-import Iza5 from './songs/Iza/ginga.jpg';
-import Iza6 from './songs/Iza/fae_nas_malucas.jpg';
-import Iza7 from './songs/Iza/sem_filtro.png';
-import Iza8 from './songs/Iza/gueto.png';
-import Iza9 from './songs/Iza/droga.webp';
-import Iza10 from './songs/Iza/esse_brilho_meu.jpg';
+import Iza1 from './songs/iza/dona_de_mim.jpg';
+import Iza2 from './songs/iza/meu_talisma.jpg';
+import Iza3 from './songs/iza/Capa_de_Pesadão.png';
+import Iza4 from './songs/iza/brisa.png';
+import Iza5 from './songs/iza/ginga.jpg';
+import Iza6 from './songs/iza/fae_nas_malucas.jpg';
+import Iza7 from './songs/iza/sem_filtro.png';
+import Iza8 from './songs/iza/gueto.png';
+import Iza9 from './songs/iza/droga.webp';
+import Iza10 from './songs/iza/esse_brilho_meu.jpg';
 
 // Nathazinho
 import Nathazinho1 from './songs/nathanzinho/nathanzinho1.webp';
@@ -297,16 +301,16 @@ import BrunoMars6 from './songs/brunomars/brunomars6.jpeg';
 
 export const songsFromArtist = {
   1: [
-    { id: 1, title: "Blinding Lights", artist: "The Weeknd", duration: "3:20", img: theWekend1},
+    { id: 1, title: "Blinding Lights", artist: "The Weeknd", duration: "3:20", img: theWekend1, audio: audio7},
     { id: 2, title: "Save Your Tears", artist: "The Weeknd", duration: "3:35", img: theWekend5, audio: audio1},
     { id: 3, title: "Starboy", artist: "The Weeknd", duration: "3:50", img: theWekend4, audio: audio2 },
     { id: 4, title: "The Hills", artist: "The Weeknd", duration: "4:02", img: theWekend2, audio: audio3 },
     { id: 5, title: "Can't Feel My Face", artist: "The Weeknd", duration: "3:35", img: theWekend2, audio: audio4},
     { id: 6, title: "Earned It", artist: "The Weeknd", duration: "4:10", img: theWekend2, audio: audio5},
-    { id: 7, title: "In Your Eyes", artist: "The Weeknd", duration: "3:58", img: theWekend1},
+    { id: 7, title: "In Your Eyes", artist: "The Weeknd", duration: "3:58", img: theWekend1, audio: audio9},
     { id: 8, title: "I Feel It Coming", artist: "The Weeknd", duration: "4:29", img: theWekend7, audio: audio6 },
-    { id: 9, title: "Out of Time", artist: "The Weeknd", duration: "3:34", img: theWekend6},
-    { id: 10, title: "Take My Breath", artist: "The Weeknd", duration: "3:40", img: theWekend3}
+    { id: 9, title: "Out of Time", artist: "The Weeknd", duration: "3:34", img: theWekend6, audio: audio8},
+    { id: 10, title: "Take My Breath", artist: "The Weeknd", duration: "3:40", img: theWekend3, audio: audio10}
   ],
   2: [
     { id: 11, title: "SICKO MODE", artist: "Travis Scott", duration: "5:12", img: SickoMode },
