@@ -51,6 +51,8 @@ import antidote from './songs/TravisScoot/Antidote.jpeg';
 import UpperEchelon from './songs/TravisScoot/Upper_Echelon.jpg';
 import Travis1 from './songs/TravisScoot/90210.jpeg';
 
+import audioTravisScoot1 from './songs/TravisScoot/audio/SICKOMODE.mp3';
+
 // Taylor Swift
 import CruelSummer from './songs/TaylorSwift/Cruel_Summer.jpg';
 import hero from './songs/TaylorSwift/Hero.jpeg';
@@ -327,7 +329,7 @@ export const songsFromArtist = {
     { id: 10, title: "Take My Breath", artist: "The Weeknd", duration: "3:40", img: theWekend3, audio: audio10}
   ],
   2: [
-    { id: 11, title: "SICKO MODE", artist: "Travis Scott", duration: "5:12", img: SickoMode },
+    { id: 11, title: "SICKO MODE", artist: "Travis Scott", duration: "5:12", img: SickoMode, audio: audioTravisScoot1 },
     { id: 12, title: "goosebumps", artist: "Travis Scott", duration: "4:03", img: goosebumps },  
     { id: 13, title: "HIGHEST IN THE ROOM", artist: "Travis Scott", duration: "2:55", img: HihestRoom },
     { id: 14, title: "MELTDOWN", artist: "Travis Scott", duration: "4:05", img: MeltDown },
