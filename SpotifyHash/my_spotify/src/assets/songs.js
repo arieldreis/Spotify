@@ -8,6 +8,17 @@ import youth2024 from './songs/striveToBe/2024_youth_theme_cover_art.jpeg';
 import youth2025 from './songs/striveToBe/look_unto_christ_youth_2025.webp';
 import noApologies from './songs/striveToBe/noApoligies.webp';
 
+import audioLDS1 from './songs/striveToBe/audio/If_You_Believe.mp3';
+import audioLDS2 from './songs/striveToBe/audio/No_Apologies.mp3';
+import audioLDS3 from './songs/striveToBe/audio/Trust_in_the_Lord.mp3';
+import audioLDS4 from './songs/striveToBe/audio/found_me.mp3';
+import audioLDS5 from './songs/striveToBe/audio/Look_Unto_Christ.mp3';
+import audioLDS6 from './songs/striveToBe/audio/gather_me.mp3';
+import audioLDS7 from './songs/striveToBe/audio/Disciple_of_ Christ.mp3';
+import audioLDS8 from './songs/striveToBe/audio/fear_not.mp3';
+import audioLDS9 from './songs/striveToBe/audio/I_Can_Do_All_Things.mp3';
+import audioLDS10 from './songs/striveToBe/audio/faith.mp3';
+
 // The Weeknd
 import theWekend1 from './songs/TheWeekend/The-Weeknd-Hertless-1280x720.webp';
 import theWekend2 from './songs/TheWeekend/theHills.jpeg';
@@ -127,6 +138,9 @@ import OneDirection7 from './songs/OneDirection/bestSongEver.jpeg';
 import OneDirection8 from './songs/OneDirection/oneThing.jpeg';
 import OneDirection9 from './songs/OneDirection/OneDirection1.jpeg';
 import OneDirection10 from './songs/OneDirection/perfect.jpeg';
+
+
+import audio7OneDirection from './songs/OneDirection/audio/best_song_ever.mp3'
 
 // Michael Jackson
 import Jackson1 from './songs/MichaelJackson/MichaelJackson.jpeg';
@@ -439,7 +453,7 @@ export const songsFromArtist = {
     { id: 114, title: "Night Changes", artist: "One Direction", duration: "3:46", img: OneDirection4 },
     { id: 115, title: "Steal My Girl", artist: "One Direction", duration: "3:48", img: OneDirection5 },
     { id: 116, title: "Little Things", artist: "One Direction", duration: "3:37", img: OneDirection6 },
-    { id: 117, title: "Best Song Ever", artist: "One Direction", duration: "3:22", img: OneDirection7 },
+    { id: 117, title: "Best Song Ever", artist: "One Direction", duration: "3:22", img: OneDirection7, audio: audio7OneDirection },
     { id: 118, title: "One Thing", artist: "One Direction", duration: "3:17", img: OneDirection8 },
     { id: 119, title: "Live While We're Young", artist: "One Direction", duration: "3:20", img: OneDirection9 },
     { id: 120, title: "Perfect", artist: "One Direction", duration: "3:50", img: OneDirection10 }
@@ -1045,15 +1059,15 @@ export const songsFromArtist = {
     { id: 630, title: "Sinal de Saudade", artist: "Léo Magalhães", duration: "3:27" },
   ],
   63: [
-    { id: 631, title: "If you Believe you", artist: "Strive to Be, Patch Crowe", duration: "2:33", img: youth2021},
-    { id: 632, title: "No apoligies", artist: "Strive to Be, Darlin Hatch", duration: "2:36", img: noApologies},
-    { id: 633, title: "Trust in the Lord", artist: "Strive to Be, Lizzy Newbold", duration: "3:35", img: youth2022},
-    { id: 634, title: "Found me", artist: "Strive to Be, Patch Crowe", duration: "3:16", img: youth2023},
-    { id: 635, title: "Look unto Christ", artist: "Strive to Be, Halo Ray", duration: "3:57", img: youth2025},
-    { id: 636, title: "Gather me", artist: "Strive to Be, Luz Ysabelle Cuevas", duration: "3:03", img: youth2024},
-    { id: 637, title: "Disciple of Christ", artist: "Strive to Be, Benjamin Josiah", duration: "3:01", img: youth2024},
-    { id: 638, title: "Fear Not", artist: "Strive to Be, Paige Anne", duration: "3:11", img: youth2025},
-    { id: 639, title: "I can do all things", artist: "Strive to Be, Jarica Jamison", duration: "3:41", img: youth2023},
-    { id: 640, title: "Faith", artist: "Strive to Be, Ben Olsen", duration: "3:04", img: youth2023}
+    { id: 631, title: "If you Believe you", artist: "Strive to Be, Patch Crowe", duration: "2:33", img: youth2021, audio: audioLDS1 },
+    { id: 632, title: "No apoligies", artist: "Strive to Be, Darlin Hatch", duration: "2:36", img: noApologies, audio: audioLDS2 },
+    { id: 633, title: "Trust in the Lord", artist: "Strive to Be, Lizzy Newbold", duration: "3:35", img: youth2022, audio: audioLDS3 },
+    { id: 634, title: "Found me", artist: "Strive to Be, Patch Crowe", duration: "3:16", img: youth2023, audio: audioLDS4 },
+    { id: 635, title: "Look unto Christ", artist: "Strive to Be, Halo Ray", duration: "3:57", img: youth2025, audio: audioLDS5 },
+    { id: 636, title: "Gather me", artist: "Strive to Be, Luz Ysabelle Cuevas", duration: "3:03", img: youth2024, audio: audioLDS6 },
+    { id: 637, title: "Disciple of Christ", artist: "Strive to Be, Benjamin Josiah", duration: "3:01", img: youth2024, audio: audioLDS7 },
+    { id: 638, title: "Fear Not", artist: "Strive to Be, Paige Anne", duration: "3:11", img: youth2025, audio: audioLDS8 },
+    { id: 639, title: "I can do all things", artist: "Strive to Be, Jarica Jamison", duration: "3:41", img: youth2023, audio: audioLDS9 },
+    { id: 640, title: "Faith", artist: "Strive to Be, Ben Olsen", duration: "3:04", img: youth2023, audio: audioLDS10 }
   ]
 };

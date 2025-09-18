@@ -22,8 +22,7 @@ const PlayMusic = () => {
   const { id } = useParams();
   const idNumber = Number(id);
 
-  const song = songsFromArtist[1].find((s) => s.id === idNumber);
-
+  const song = Object.values(songsFromArtist).flat().find((s) => s.id === idNumber) || null;
   return (
     <>
       <div className='main'>
@@ -33,7 +32,7 @@ const PlayMusic = () => {
       </div>
       <div className='Player'>
           <div className="PlayerImg">
-            <Link to='/'>
+            <Link to={`/song/:${id}`}>
               <img src={song.img} alt="Imagem do Artista" />
             </Link>
           </div>
