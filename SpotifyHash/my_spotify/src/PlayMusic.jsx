@@ -31,9 +31,9 @@ const PlayMusic = () => {
     const getImageType = (url) => {
       if (url.endsWith('.png')) return 'image/png';
       if (url.endsWith('.webp')) return 'image/webp';
-      if(url.endsWith('jfif')) return 'image/jfif';
-      if(url.endsWith('jpeg')) return 'image/jpeg';
-      if(url.endsWith('jpg')) return 'image/jpg';
+      if(url.endsWith('.jfif')) return 'image/jfif';
+      if(url.endsWith('.jpeg')) return 'image/jpeg';
+      if(url.endsWith('.jpg')) return 'image/jpg';
     };
 
     navigator.mediaSession.metadata = new MediaMetadata({
