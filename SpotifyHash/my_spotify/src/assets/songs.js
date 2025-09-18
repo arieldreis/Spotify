@@ -141,8 +141,16 @@ import OneDirection8 from './songs/OneDirection/oneThing.jpeg';
 import OneDirection9 from './songs/OneDirection/OneDirection1.jpeg';
 import OneDirection10 from './songs/OneDirection/perfect.jpeg';
 
-
-import audio7OneDirection from './songs/OneDirection/audio/best_song_ever.mp3'
+import audio1OneDirection from './songs/OneDirection/audio/What_Makes_You_Beautiful.mp3';
+import audio2OneDirection from './songs/OneDirection/audio/Story_of_My_Life.mp3';
+import audio3OneDirection from './songs/OneDirection/audio/Drag_Me_Down.mp3';
+import audio4OneDirection from './songs/OneDirection/audio/Night_Changes .mp3';
+import audio5OneDirection from './songs/OneDirection/audio/Steal_My_Girl.mp3';
+import audio6OneDirection from './songs/OneDirection/audio/Little_Things.mp3';
+import audio7OneDirection from './songs/OneDirection/audio/best_song_ever.mp3';
+import audio8OneDirection from './songs/OneDirection/audio/One_Thing.mp3';
+import audio9OneDirection from './songs/OneDirection/audio/While_We_re Young.mp3';
+import audio10OneDirection from './songs/OneDirection/audio/Perfect.mp3';
 
 // Michael Jackson
 import Jackson1 from './songs/MichaelJackson/MichaelJackson.jpeg';
@@ -449,16 +457,16 @@ export const songsFromArtist = {
     { id: 110, title: "Sunshine", artist: "OneRepublic", duration: "2:43", img: OneRepublic7}
   ],
   12: [
-    { id: 111, title: "What Makes You Beautiful", artist: "One Direction", duration: "3:20", img: OneDirection1 },
-    { id: 112, title: "Story of My Life", artist: "One Direction", duration: "4:05", img: OneDirection2 },
-    { id: 113, title: "Drag Me Down", artist: "One Direction", duration: "3:12", img: OneDirection3 },
-    { id: 114, title: "Night Changes", artist: "One Direction", duration: "3:46", img: OneDirection4 },
-    { id: 115, title: "Steal My Girl", artist: "One Direction", duration: "3:48", img: OneDirection5 },
-    { id: 116, title: "Little Things", artist: "One Direction", duration: "3:37", img: OneDirection6 },
+    { id: 111, title: "What Makes You Beautiful", artist: "One Direction", duration: "3:20", img: OneDirection1, audio: audio1OneDirection},
+    { id: 112, title: "Story of My Life", artist: "One Direction", duration: "4:05", img: OneDirection2, audio: audio2OneDirection},
+    { id: 113, title: "Drag Me Down", artist: "One Direction", duration: "3:12", img: OneDirection3, audio: audio3OneDirection},
+    { id: 114, title: "Night Changes", artist: "One Direction", duration: "3:46", img: OneDirection4, audio: audio4OneDirection },
+    { id: 115, title: "Steal My Girl", artist: "One Direction", duration: "3:48", img: OneDirection5, audio: audio5OneDirection},
+    { id: 116, title: "Little Things", artist: "One Direction", duration: "3:37", img: OneDirection6, audio: audio6OneDirection},
     { id: 117, title: "Best Song Ever", artist: "One Direction", duration: "3:22", img: OneDirection7, audio: audio7OneDirection },
-    { id: 118, title: "One Thing", artist: "One Direction", duration: "3:17", img: OneDirection8 },
-    { id: 119, title: "Live While We're Young", artist: "One Direction", duration: "3:20", img: OneDirection9 },
-    { id: 120, title: "Perfect", artist: "One Direction", duration: "3:50", img: OneDirection10 }
+    { id: 118, title: "One Thing", artist: "One Direction", duration: "3:17", img: OneDirection8, audio: audio8OneDirection},
+    { id: 119, title: "Live While We're Young", artist: "One Direction", duration: "3:20", img: OneDirection9, audio: audio9OneDirection},
+    { id: 120, title: "Perfect", artist: "One Direction", duration: "3:50", img: OneDirection10, audio: audio10OneDirection }
   ],
   13: [
     { id: 121, title: "Billie Jean", artist: "Michael Jackson", duration: "4:54", img: Jackson1 },
