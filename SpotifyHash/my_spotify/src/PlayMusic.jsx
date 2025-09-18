@@ -9,20 +9,42 @@ const PlayMusic = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
+
   const playPause = () => {
     isPlaying ? audioPlayer.current.pause() : audioPlayer.current.play();
     setIsPlaying(!isPlaying);
   }
+
   const FormatTime = (time) => {
     const minutes = Math.floor(time / 60);
     const seconds = Math.floor(time % 60);
     return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
   }
-  useEffect(() => {});
+
   const { id } = useParams();
   const idNumber = Number(id);
-
   const song = Object.values(songsFromArtist).flat().find((s) => s.id === idNumber) || null;
+
+  useEffect(() => {
+    if (!("mediaSession" in navigator) || !song) return;
+
+    const getImageType = (url) => {
+      if (url.endsWith('.png')) return 'image/png';
+      if (url.endsWith('.webp')) return 'image/webp';
+      if(url.endsWith('jfif')) return 'image/jfif';
+      if(url.endsWith('jpeg')) return 'image/jpeg';
+      if(url.endsWith('jpg')) return 'image/jpg';
+    };
+
+    navigator.mediaSession.metadata = new MediaMetadata({
+    title: song.title,
+    artist: song.artist,
+    artwork: [
+      { src: song.img, sizes: "512x512", type: getImageType(song.img) }
+    ]
+    });
+  });
+
   return (
     <>
       <div className='main'>
@@ -32,7 +54,7 @@ const PlayMusic = () => {
       </div>
       <div className='Player'>
           <div className="PlayerImg">
-            <Link to={`/song/:${id}`}>
+            <Link to={`/song/${id}`}>
               <img src={song.img} alt="Imagem do Artista" />
             </Link>
           </div>
@@ -61,7 +83,11 @@ const PlayMusic = () => {
             <p>{song.title}</p>
             <p>{song.artist}</p>
           </div>
-          <audio src={song.audio} ref={audioPlayer} controls loop style={{display: 'none'}} onLoadedMetadata={() => setDuration(audioPlayer.current.duration)} onTimeUpdate={() => setCurrentTime(audioPlayer.current.currentTime)}></audio>
+          <audio src={song.audio} 
+          ref={audioPlayer} controls loop 
+          style={{display: 'none'}} 
+          onLoadedMetadata={() => setDuration(audioPlayer.current.duration)} 
+          onTimeUpdate={() => setCurrentTime(audioPlayer.current.currentTime)}></audio>
       </div>
     </>
   )

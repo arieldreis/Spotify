@@ -3,7 +3,6 @@ import { songsFromArtist } from './assets/songs.js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCirclePlay } from '@fortawesome/free-solid-svg-icons';
 import { Link, useParams } from 'react-router-dom';
-import OneDirection from './assets/Singers/OneDirection.jpg'
 const Songs = () => {
   const {id} = useParams();
   const allSongs = Object.values(songsFromArtist).flat();
